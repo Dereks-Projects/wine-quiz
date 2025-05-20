@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const feedback = document.getElementById("feedback");
   const reviewContainer = document.getElementById("review-container");
   const reviewList = document.getElementById("review-list");
+  const htmlElement = document.documentElement;
 
   let timeLeft = 0;
   let timerInterval;
@@ -24,6 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentMode = "quiz";
   let showImmediateFeedback = true;
   let answerLog = [];
+
+  // Lock scroll initially
+  htmlElement.classList.add("scroll-locked");
 
   startButton.addEventListener("click", () => {
     const level = difficultySelect.value;
@@ -43,6 +47,10 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("level-selection").classList.add("hidden");
     quizContainer.classList.remove("hidden");
     reviewContainer.classList.add("hidden");
+
+    // Unlock scroll during quiz
+    htmlElement.classList.remove("scroll-locked");
+    htmlElement.classList.add("scroll-unlocked");
 
     if (currentMode === "exam") {
       timeLeft = 15 * 60;
@@ -207,6 +215,10 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("level-selection").classList.remove("hidden");
     startButton.classList.remove("hidden");
     difficultySelect.classList.remove("hidden");
+
+    // Lock scroll again when back to the start screen
+    htmlElement.classList.remove("scroll-unlocked");
+    htmlElement.classList.add("scroll-locked");
   });
 
   function disableAnswers() {
