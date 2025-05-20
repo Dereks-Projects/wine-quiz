@@ -6,20 +6,24 @@
 }
 
 html, body {
-  height: 100%;
+  min-height: 100vh;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   font-family: 'Inter', sans-serif;
   background: 
     linear-gradient(rgba(58, 47, 47, 0.8), rgba(58, 47, 47, 0.8)),
     url('./images/app-background.png') no-repeat center center;
   background-size: cover;
-  background-attachment: fixed; /* optional: creates subtle parallax effect */
+  background-attachment: fixed;
   color: #1c1c1c;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 1rem;
   line-height: 1.5;
 }
+
 
 
 /* App Container - centered, padded, clean */
