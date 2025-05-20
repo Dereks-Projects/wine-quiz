@@ -203,3 +203,15 @@ select:hover {
     margin-bottom: 2rem;
   }
 }
+.scroll-locked,
+.scroll-locked body {
+  height: 100vh;
+  overflow-y: hidden !important;
+  overscroll-behavior: none;
+}
+
+.scroll-unlocked,
+.scroll-unlocked body {
+  height: auto;
+  overflow-y: auto !important;
+}
