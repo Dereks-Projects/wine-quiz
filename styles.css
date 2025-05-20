@@ -6,10 +6,7 @@
 }
 
 html, body {
-  min-height: 100vh;
-  height: auto;
-  overflow-x: hidden;
-  overflow-y: auto;
+  height: 100%;
   font-family: 'Inter', sans-serif;
   background: 
     linear-gradient(rgba(58, 47, 47, 0.8), rgba(58, 47, 47, 0.8)),
@@ -19,10 +16,12 @@ html, body {
   color: #1c1c1c;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding: 1rem;
   line-height: 1.5;
+  overflow: hidden; /* will override on mobile */
 }
+
 
 
 
@@ -190,3 +189,17 @@ select:hover {
   display: none;
 }
 
+@media (max-width: 768px) {
+  html, body {
+    height: auto;
+    min-height: 100vh;
+    align-items: flex-start;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .app-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
