@@ -1,0 +1,188 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  background: 
+    linear-gradient(rgba(58, 47, 47, 0.8), rgba(58, 47, 47, 0.8)),
+    url('./images/app-background.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; /* optional: creates subtle parallax effect */
+  color: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+
+/* App Container - centered, padded, clean */
+.app-container {
+  width: 100%;
+  max-width: 1000px;
+  min-width: 300px;
+  padding: 2rem;
+  border-radius: 16px;
+  background: linear-gradient(to bottom right, #fffaf7, #f0e9e5); /* Soft cream background */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 1000px) {
+  .app-container {
+    max-width: 1000px;
+  }
+}
+
+.app-footer {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.app-footer a {
+  color: #5e1515;
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
+
+
+/* Header & Tagline */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #360000;
+}
+
+h5 {
+  font-size: 1rem;
+  color: #5e5d5d;
+  margin-bottom: 1.5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* Level & Mode Select Section */
+#level-selection {
+  margin-bottom: 2rem;
+}
+
+#mode-selection {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+/* Dropdown & Button Inputs */
+select,
+button {
+  padding: 0.5rem 1.2rem;
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Hover & Focus Styles */
+button:hover,
+select:hover {
+  background-color: #5e1515;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Quiz Questions */
+#question {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Answer Buttons Grid */
+.btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #5e1515;
+  color: #fff;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Timer & Feedback */
+.timer-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.feedback-text {
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Final Score */
+#score-container p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Review Section */
+#review-container {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.review-item {
+  background: #f9f6f3;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border-left: 4px solid #360000;
+}
+
+/* Utility */
+.hidden {
+  display: none;
+}
+

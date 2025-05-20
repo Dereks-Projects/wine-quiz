@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wine Quiz App</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.png" type="image/png" />
+
+
+</head>
+<body>
+
+
+
+  <div class="app-container">
+    <h1>Wine Quiz</h1>
+    <h5>Test your knowledge on wine. Choose your level and start now!</h5>
+
+    <!-- 🚦 Level + Mode Selection -->
+    <div id="level-selection">
+      <label for="difficulty">Choose a level:</label>
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+
+      <!-- 🔘 Mode Selection (radio buttons) -->
+      <div id="mode-selection">
+        <p>Select Mode: Quiz or Exam</p>
+        <label>
+          <input type="radio" name="mode" value="quiz" checked />
+          Quiz Mode (10 questions)
+        </label>
+        <label>
+          <input type="radio" name="mode" value="exam" />
+          Exam Mode (20 questions)
+        </label>
+      </div>
+
+      <button id="start-btn">Start</button>
+    </div>
+
+    <!-- ❓ Quiz Interface -->
+    <div id="quiz" class="hidden">
+      <div id="question-container">
+        <p id="question">Question text will go here</p>
+      </div>
+      
+      <div id="answer-buttons" class="btn-grid"></div>
+      <p id="timer" class="timer-text">Time remaining: 30s</p>
+      <p id="feedback" class="feedback-text hidden">Feedback will go here</p>
+      <button id="next-btn" class="hidden">Next</button>
+    </div>
+
+    <!-- 🏁 Final Score -->
+    <div id="score-container" class="hidden">
+      <p>Your Score: <span id="score">0</span></p>
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+
+    <!-- 🔍 Review Incorrect Answers -->
+    <div id="review-container" class="hidden">
+      <h3>Review Incorrect Answers</h3>
+      <div id="review-list"></div>
+    </div>
+  
+    <div id="footer" class="app-footer">
+  <p>
+    Presented by <a href="https://www.derekengles.com" target="_blank">Derek Engles</a>
+  </p>
+  <p>
+    Find an error? <a href="mailto:derek@somm.site">Email me</a>
+  </p>
+</div>
+
+
+
+  
+  
+  </div>
+
+  <script type="module" src="script.js"></script>
+  
+</body>
+</html>
