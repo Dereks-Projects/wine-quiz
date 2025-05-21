@@ -1015,7 +1015,7 @@ export const questions = [
     "level": "hard",
     "question": "How long is Napolean Armagnac aged for?",
     "choices": [
-      "9 to 12 yaears",
+      "9 to 12 years",
       "1 year",
       "2 years",
       "4 - 9 years"
@@ -1564,12 +1564,12 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Where is grattalops?",
+    "question": "Where is Grattalops?",
     "choices": [
-      "Spain",
+      "Rioja, Spain",
       "Priorat, Spain",
-      "Italy",
-      "Portugal"
+      "Madrid, Spain",
+      "Porto, Portugal"
     ],
     "answer": "Priorat, Spain"
   },
@@ -1593,11 +1593,11 @@ export const questions = [
       "Bruno Paillard",
       "Gratien"
     ],
-    "answer": "Bruno paillard"
+    "answer": "Bruno Paillard"
   },
   {
     "level": "hard",
-    "question": "What river does Toro d.o. reside on?",
+    "question": "What river does Toro D.O. reside on?",
     "choices": [
       "Duero",
       "Guadalette",

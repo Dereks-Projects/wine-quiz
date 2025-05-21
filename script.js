@@ -18,7 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const htmlElement = document.documentElement;
 
   let timeLeft = 0;
-  let timerInterval;
+  let globalTimerInterval = null;
+  let quizTimerInterval = null;
   let currentQuestionIndex = 0;
   let score = 0;
   let selectedQuestions = [];
@@ -26,7 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
   let showImmediateFeedback = true;
   let answerLog = [];
 
-  // Lock scroll initially
   htmlElement.classList.add("scroll-locked");
 
   startButton.addEventListener("click", () => {
@@ -48,12 +48,11 @@ document.addEventListener("DOMContentLoaded", () => {
     quizContainer.classList.remove("hidden");
     reviewContainer.classList.add("hidden");
 
-    // Unlock scroll during quiz
     htmlElement.classList.remove("scroll-locked");
     htmlElement.classList.add("scroll-unlocked");
 
     if (currentMode === "exam") {
-      timeLeft = 15 * 60;
+      timeLeft = 12 * 60; // 12-minute exam timer
       startGlobalTimer();
     }
 
@@ -62,21 +61,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function startGlobalTimer() {
     timerElement.classList.remove("hidden");
-    updateTimerDisplay();
-    timerInterval = setInterval(() => {
+    updateTimerDisplay(timeLeft);
+    globalTimerInterval = setInterval(() => {
       timeLeft--;
-      updateTimerDisplay();
+      updateTimerDisplay(timeLeft);
       if (timeLeft <= 0) {
-        clearInterval(timerInterval);
+        clearInterval(globalTimerInterval);
         endQuiz();
       }
     }, 1000);
   }
 
-  function updateTimerDisplay() {
-    const minutes = Math.floor(timeLeft / 60);
-    const seconds = timeLeft % 60;
-    timerElement.innerText = `Time remaining: ${minutes}:${seconds < 10 ? "0" + seconds : seconds}`;
+  function startQuizTimer() {
+    timeLeft = 30;
+    updateTimerDisplay(timeLeft);
+    timerElement.classList.remove("hidden");
+    quizTimerInterval = setInterval(() => {
+      timeLeft--;
+      updateTimerDisplay(timeLeft);
+      if (timeLeft === 0) {
+        clearInterval(quizTimerInterval);
+        if (showImmediateFeedback) {
+          feedback.innerText = "Time's up!";
+          feedback.classList.remove("hidden");
+          feedback.style.color = "orange";
+        }
+        disableAnswers();
+        nextButton.classList.remove("hidden");
+      }
+    }, 1000);
+  }
+
+  function updateTimerDisplay(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    const formatted = `${minutes}:${secs < 10 ? "0" + secs : secs}`;
+    timerElement.innerText = `Time remaining: ${formatted}`;
   }
 
   function showQuestion() {
@@ -85,23 +105,11 @@ document.addEventListener("DOMContentLoaded", () => {
     questionElement.innerText = question.question;
 
     if (currentMode === "quiz") {
-      timeLeft = 30;
-      updateTimerDisplay();
+      startQuizTimer();
+    } else if (currentMode === "exam") {
+      // Show remaining exam time (already counting down)
       timerElement.classList.remove("hidden");
-      timerInterval = setInterval(() => {
-        timeLeft--;
-        updateTimerDisplay();
-        if (timeLeft === 0) {
-          clearInterval(timerInterval);
-          if (showImmediateFeedback) {
-            feedback.innerText = "Time's up!";
-            feedback.classList.remove("hidden");
-            feedback.style.color = "orange";
-          }
-          disableAnswers();
-          nextButton.classList.remove("hidden");
-        }
-      }, 1000);
+      updateTimerDisplay(timeLeft);
     }
 
     question.choices.forEach(answer => {
@@ -109,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
       button.innerText = answer;
       button.classList.add("btn");
       button.addEventListener("click", () => {
-        if (currentMode === "quiz") clearInterval(timerInterval);
+        if (currentMode === "quiz") clearInterval(quizTimerInterval);
         selectAnswer(answer);
       });
       answerButtons.appendChild(button);
@@ -117,10 +125,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function resetState() {
-    clearInterval(timerInterval);
+    if (currentMode === "quiz") {
+      clearInterval(quizTimerInterval);
+    }
     nextButton.classList.add("hidden");
     answerButtons.innerHTML = "";
-    timerElement.classList.add("hidden");
     feedback.classList.add("hidden");
     feedback.innerText = "";
   }
@@ -165,7 +174,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   function endQuiz() {
-    clearInterval(timerInterval);
+    clearInterval(quizTimerInterval);
+    clearInterval(globalTimerInterval);
     quizContainer.classList.add("hidden");
     scoreContainer.classList.remove("hidden");
 
@@ -210,13 +220,15 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   restartButton.addEventListener("click", () => {
+    clearInterval(quizTimerInterval);
+    clearInterval(globalTimerInterval);
+
     scoreContainer.classList.add("hidden");
     reviewContainer.classList.add("hidden");
     document.getElementById("level-selection").classList.remove("hidden");
     startButton.classList.remove("hidden");
     difficultySelect.classList.remove("hidden");
 
-    // Lock scroll again when back to the start screen
     htmlElement.classList.remove("scroll-unlocked");
     htmlElement.classList.add("scroll-locked");
   });
