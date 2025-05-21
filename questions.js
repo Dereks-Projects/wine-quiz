@@ -279,9 +279,9 @@ export const questions = [
     "question": "Where is Scarecrow produced?",
     "choices": [
       "Napa Valley",
-      "France",
-      "Tuscany",
-      "Piedmont"
+      "Canada",
+      "Chile",
+      "Sonoma County"
     ],
     "answer": "Napa Valley"
   },
@@ -324,10 +324,10 @@ export const questions = [
     "choices": [
       "Lurton",
       "Bertrand",
-      "Veuve cliquot",
+      "Veuve Cliquot",
       "Moet"
     ],
-    "answer": "Veuve cliquot"
+    "answer": "Veuve Cliquot"
   },
   {
     "level": "medium",
@@ -336,7 +336,7 @@ export const questions = [
       "Ontario",
       "Quebec",
       "Montana",
-      "Lake Eirie"
+      "Lake Erie"
     ],
     "answer": "Ontario"
   },
@@ -573,7 +573,7 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "What growth in the Bordeaux classification is Ch\u00e2teau palmer?",
+    "question": "What growth in the Bordeaux classification is Ch\u00e2teau Palmer?",
     "choices": [
       "2nd",
       "Cru Bourgeois",
@@ -584,7 +584,7 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "What growth in the Bordeaux classification is Ch\u00e2teau pontet-canet?",
+    "question": "What growth in the Bordeaux classification is Ch\u00e2teau Pontet-Canet?",
     "choices": [
       "3rd",
       "5th",
@@ -595,7 +595,7 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "What growth in the Bordeaux classification is Ch\u00e2teau kirwan?",
+    "question": "What growth in the Bordeaux classification is Ch\u00e2teau Kirwan?",
     "choices": [
       "4th",
       "Super Second",
@@ -617,7 +617,7 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "Where is Ch\u00e2teau Bouscaut  located?",
+    "question": "Where is Ch\u00e2teau Bouscaut located?",
     "choices": [
       "Provence",
       "Jura",
@@ -705,7 +705,7 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "Sea breezes called meltemi are found where?",
+    "question": "Sea breezes called Meltemi are found where?",
     "choices": [
       "Spain",
       "Chile",
@@ -782,7 +782,7 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "What river runs through valtelina?",
+    "question": "What river runs through Valtelina?",
     "choices": [
       "Loess",
       "Hudson",
@@ -892,7 +892,7 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "Where are the Dentelles mountians located?",
+    "question": "Where are the Dentelles Mountians located?",
     "choices": [
       "Northern Chile",
       "Southern France",
@@ -914,7 +914,7 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "Where is the the Great Dividing range located?",
+    "question": "Where is the the Great Dividing Range located?",
     "choices": [
       "NSW, Australia",
       "Mosel, Germany",
@@ -925,7 +925,7 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "Where are the Finger Lakes?",
+    "question": "Where is the Finger Lakes AVA?",
     "choices": [
       "Virginia",
       "Ohio",
@@ -949,8 +949,8 @@ export const questions = [
     "level": "medium",
     "question": "Which grape is used in the white wines of Soave?",
     "choices": [
-      "Pinot Noir",
-      "Merlot",
+      "Pinot Gris",
+      "Riesling",
       "Garganega",
       "Chardonnay"
     ],
@@ -982,9 +982,9 @@ export const questions = [
     "level": "hard",
     "question": "What grand cru site is Trimbach's Clos-Ste-Hune located?",
     "choices": [
-      "Portugal",
+      "Altenberg de Bergheim",
       "Rosacker",
-      "Sydney",
+      "Kaefferkopf",
       "Strousbourg"
     ],
     "answer": "Rosacker"
@@ -1064,7 +1064,7 @@ export const questions = [
       "Herbal liquer from France",
       "Herbal liqueur from Germany"
     ],
-    "answer": "Herbal liquer from sw France"
+    "answer": "Herbal liquer from France"
   },
   {
     "level": "hard",
@@ -1141,7 +1141,7 @@ export const questions = [
       "Burgundy Grand Cru",
       "Cremant du Jura"
     ],
-    "answer": "Cremant de luxembourg"
+    "answer": "Cremant de Luxembourg"
   },
   {
     "level": "hard",
@@ -1289,14 +1289,14 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "What is the varietal and min % for Bandol rouge?",
+    "question": "What is the main varietal and min. % for Bandol rouge?",
     "choices": [
       "100% Mourvedre",
       "50% min. Mourvedre",
       "60% min. Grenache",
-      "none"
+      "100% Grenache"
     ],
-    "answer": "50% min mourvedre"
+    "answer": "50% min. Mourvedre"
   },
   {
     "level": "hard",
@@ -1698,16 +1698,16 @@ export const questions = [
     "level": "hard",
     "question": "Which slovenian region borders Collio?",
     "choices": [
-      "France",
-      "Chile",
+      "Distania",
+      "Western Plains",
       "Primorska",
-      "Germany"
+      "Posovdje"
     ],
     "answer": "Primorska"
   },
   {
     "level": "hard",
-    "question": "Which river runs along Tokaj?",
+    "question": "Which river influences the Tokaj region?",
     "choices": [
       "Carpathian",
       "Debina",
@@ -2159,12 +2159,12 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Grape varietal of zitsa.?",
+    "question": "What is the main grape varietal of the Zitsa region?",
     "choices": [
       "Debina",
       "Pinot Noir",
-      "Cabernet Sauvignon",
-      "Sauvignon Blanc"
+      "Fiano",
+      "Croatina"
     ],
     "answer": "Debina"
   },
@@ -2172,10 +2172,10 @@ export const questions = [
     "level": "hard",
     "question": "Where are the Tro\u00f6dos Mountains?",
     "choices": [
-      "Spain",
+      "Montenegro",
       "Cyprus",
       "Germany",
-      "Chile"
+      "Greece"
     ],
     "answer": "Cyprus"
   },
@@ -2214,14 +2214,14 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Producer of les clos st.-hilaire.?",
+    "question": "Producer of les Clos St. Hilaire?",
     "choices": [
-      "Sauvignon Blanc",
-      "Billecart-salmon",
-      "Riesling",
-      "France"
+      "Moet & Chandon",
+      "Billecart-Salmon",
+      "Selosse",
+      "Aggrapart"
     ],
-    "answer": "Billecart-salmon"
+    "answer": "Billecart-Salmon"
   },
   {
     "level": "hard",
@@ -2236,7 +2236,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Broke Fordwich is a subregion of where?",
+    "question": "Broke Fordwich is a subregion of which region?",
     "choices": [
       "Tasmania",
       "Hunter Valley",
@@ -2247,14 +2247,14 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "El hierro is located where?",
+    "question": "Where is El Hierro is located?",
     "choices": [
-      "Portugal",
-      "Italy",
-      "Canary islands",
-      "Chile"
+      "Andalucia",
+      "Porto",
+      "Canary Islands",
+      "Madeira"
     ],
-    "answer": "Canary islands"
+    "answer": "Canary Islands"
   },
   {
     "level": "hard",
@@ -2269,12 +2269,12 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Grape of fara doc.?",
+    "question": "What is the grape of Fara DOC?",
     "choices": [
       "Nebbiolo",
       "Pinot Noir",
-      "Cabernet Sauvignon",
-      "Syrah"
+      "Chardonnay",
+      "Barbera"
     ],
     "answer": "Nebbiolo"
   },
@@ -2302,7 +2302,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Where would you find the Solano wind?",
+    "question": "Where would you find the Solano winds?",
     "choices": [
       "Rioja",
       "Rueda",
@@ -2467,7 +2467,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Where is the premier cru of Tours-sur-Marne ?",
+    "question": "Where is the premier cru of Tours-sur-Marne?",
     "choices": [
       "Orleans",
       "Chablis",
@@ -2478,7 +2478,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Where is the premier cru of Aux Combottes ?",
+    "question": "Where is the premier cru of Aux Combottes?",
     "choices": [
       "Vosne Romanee",
       "Chambolle Musigny",
@@ -2489,7 +2489,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Where is the premier cru of Les Cazetieres ?",
+    "question": "Where is the premier cru of Les Cazetieres?",
     "choices": [
       "Vosne Romanee",
       "Chambolle Musigny",
@@ -2500,23 +2500,12 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Where is the premier cru of clos st jacques ?",
+    "question": "What region does the the Cantabrian Mountains protect?",
     "choices": [
-      "Gevery chambertin",
-      "Chile",
-      "Germany",
-      "Spain"
-    ],
-    "answer": "Gevery chambertin"
-  },
-  {
-    "level": "hard",
-    "question": "What region does the the cantabrian mountains protect?",
-    "choices": [
-      "Portugal",
-      "Germany",
+      "Grattalops",
+      "Valencia",
       "Rioja",
-      "Chile"
+      "Jerez"
     ],
     "answer": "Rioja"
   },
@@ -2566,56 +2555,45 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Where is the c\u00f4tes du couchois?",
+    "question": "Where is the C\u00f4tes du Couchois?",
     "choices": [
-      "Italy",
-      "Chile",
-      "Portugal",
-      "Cote chalonaise"
+      "Jura",
+      "Chablis",
+      "Champagne",
+      "Cote Chalonaise"
     ],
-    "answer": "Cote chalonaise"
+    "answer": "Cote Chalonaise"
   },
   {
     "level": "hard",
-    "question": "Where is vin de pays de cilaos located?",
+    "question": "Which county is the Diablo Grande AVA in?",
     "choices": [
-      "R\u00e9union",
-      "Chile",
-      "Spain",
-      "Italy"
-    ],
-    "answer": "R\u00e9union"
-  },
-  {
-    "level": "hard",
-    "question": "Which county is the diablo grande AVA in?",
-    "choices": [
-      "Napa Valley",
-      "Portugal",
-      "Nebbiolo",
+      "Napa county",
+      "Lake county",
+      "Santa Barbara county",
       "Sacramento county"
     ],
     "answer": "Sacramento county"
   },
   {
     "level": "hard",
-    "question": "Ch\u00e2teau de loei was the first commercial winery where?",
+    "question": "Ch\u00e2teau de Loei was the first commercial winery where?",
     "choices": [
       "Thailand",
-      "France",
-      "Germany",
-      "Italy"
+      "Bhutan",
+      "Peru",
+      "Mexico"
     ],
     "answer": "Thailand"
   },
   {
     "level": "hard",
-    "question": "Which area of china has the most wineries and highest quality production levels?",
+    "question": "Which area of China has the most wineries and highest quality production levels?",
     "choices": [
-      "Chardonnay",
+      "Beijing peninsula",
       "Shandong province",
-      "Tuscany",
-      "Pinot Noir"
+      "Hang Seng region",
+      "Inner provinces"
     ],
     "answer": "Shandong province"
   },
@@ -2643,34 +2621,23 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Who makes his eminence\u2019s choice superb\nold tawny?",
+    "question": "Where would you find the grape Pontac?",
     "choices": [
-      "Delaforce",
-      "Riesling",
-      "Barbera",
-      "France"
-    ],
-    "answer": "Delaforce"
-  },
-  {
-    "level": "hard",
-    "question": "Where would you find the grape pontac?",
-    "choices": [
-      "Sauvignon Blanc",
-      "Merlot",
+      "Kwazulu Natal",
+      "Stellenbosch",
       "Constantia",
-      "Pinot Noir"
+      "Walker Bay"
     ],
     "answer": "Constantia"
   },
   {
     "level": "hard",
-    "question": "Location of the indre river.?",
+    "question": "Location of the Indre river.?",
     "choices": [
-      "Torraine, Loire Valley",
-      "Syrah",
-      "France",
-      "Bordeaux"
+      "Torrainey",
+      "Central Vineyards",
+      "Champagne",
+      "Haut Cotes de Nuits"
     ],
     "answer": "Torraine, Loire Valley"
   },
@@ -2678,23 +2645,23 @@ export const questions = [
     "level": "hard",
     "question": "What is milk sherry?",
     "choices": [
-      "Australia",
-      "Sweetened amontillado",
-      "Sauvignon Blanc",
-      "Chile"
+      "Sherry and ice cream",
+      "Sweetened Amontillado",
+      "Milk infudes fino",
+      "Montilla-Moriles wine"
     ],
     "answer": "Sweetened amontillado"
   },
   {
     "level": "hard",
-    "question": "Where would you find boulb\u00e8nes, aslar, and ribot soil?",
+    "question": "Where would you find boulb\u00e8nes, aslar, and ribot soil types?",
     "choices": [
-      "Entre-deux-mers",
-      "Italy",
-      "France",
-      "Germany"
+      "Entre-deux-Mers",
+      "Pomerol",
+      "Haut Medoc",
+      "Cahors"
     ],
-    "answer": "Entre-deux-mers"
+    "answer": "Entre-deux-Mers"
   },
   {
     "level": "hard",
@@ -2720,36 +2687,36 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Sea breezes called meltemi are found where?",
+    "question": "Sea breezes called Meltemi are found where?",
     "choices": [
       "Chile",
       "France",
-      "Germany",
+      "Corsica",
       "Greece"
     ],
     "answer": "Greece"
   },
   {
     "level": "hard",
-    "question": "Alte reben on a german wine label means what?",
+    "question": "Alte reben on a German wine label means what?",
     "choices": [
-      "Portugal",
-      "Italy",
-      "Tuscany",
+      "Available overseas",
+      "Dry",
+      "Aged 10 years",
       "Old vines"
     ],
     "answer": "Old vines"
   },
   {
     "level": "hard",
-    "question": "Most noteworthy area for the glera varietal.?",
+    "question": "What is the most noteworthy area for the Glera varietal?",
     "choices": [
-      "Syrah",
-      "Sauvignon Blanc",
-      "Merlot",
-      "Cartizze (prosecco)"
+      "Adda",
+      "Romarisco",
+      "Rosacker",
+      "Cartizze"
     ],
-    "answer": "Cartizze (prosecco)"
+    "answer": "Cartizze"
   },
   {
     "level": "hard",
@@ -3127,7 +3094,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "What is the max. r/s for a ros\u00e9 from marsannay?",
+    "question": "What is the max. residual sugar for a ros\u00e9 from Marsannay?",
     "choices": [
       "0 grams per liter of residual sugar",
       "2 grams per liter of residual sugar",
@@ -3292,7 +3259,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "What is the mountain range of the southern Rhone valey?",
+    "question": "What is the mountain range of the southern Rhone Valley?",
     "choices": [
       "Dordogne",
       "Dentelles",
@@ -3380,7 +3347,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Who produces Charles de Gaulle?",
+    "question": "Who produces Charles de Gaulle Champagne?",
     "choices": [
       "Gouget",
       "Drappier",
@@ -3424,7 +3391,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "How long is the minimum aging for vvo port wine?",
+    "question": "How long is the minimum aging for VVO port wine?",
     "choices": [
       "10 years",
       "40 years",
