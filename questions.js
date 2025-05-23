@@ -124,12 +124,12 @@ export const questions = [
     "level": "easy",
     "question": "What is the purpose of swirling wine in a glass?",
     "choices": [
-      "Release aromas",
-      "To mix flavors",
       "To release aromas",
+      "To mix flavors",
+      "To release color",
       "To cool it down"
     ],
-    "answer": "Release aromas"
+    "answer": "To release aromas"
   },
   {
     "level": "easy",
@@ -410,10 +410,10 @@ export const questions = [
     "level": "medium",
     "question": "Where is Fleurie?",
     "choices": [
-      "Spain",
-      "France",
+      "Bordeaux",
+      "Savoie",
       "Beaujolais",
-      "Italy"
+      "Champagne"
     ],
     "answer": "Beaujolais"
   },
@@ -463,7 +463,7 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "What is the grape of Chinon blanc AOP?",
+    "question": "What is the grape of Chinon blanc?",
     "choices": [
       "Cabernet Sauvignon",
       "Pinot Noir",
@@ -488,11 +488,11 @@ export const questions = [
     "question": "What is the southern most AOP of the Northern Rh\u00f4ne Valley?",
     "choices": [
       "Hermitage",
-      "North Yuba",
+      "Southern Plains",
       "St. Joseph",
-      "St-p\u00e9ray"
+      "St-P\u00e9ray"
     ],
-    "answer": "St-p\u00e9ray"
+    "answer": "St-P\u00e9ray"
   },
   {
     "level": "medium",
@@ -1821,7 +1821,7 @@ export const questions = [
     "question": "Where is Ch\u00e2teau Tahlbik?",
     "choices": [
       "Barossa Valley, South Australia",
-      "Goulbourn Valley, Victoria",
+      "Mornington Peninsula, Victoria",
       "Yarra Valley, Victoria",
       "Goulbourn Valley, Victoria"
     ],
