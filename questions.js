@@ -635,7 +635,7 @@ export const questions = [
       "SW France",
       "Cadiz, Spain"
     ],
-    "answer": "Graves"
+    "answer": "Graves, France"
   },
   {
     "level": "medium",
@@ -661,7 +661,7 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "Where is Cote de Lechet located?",
+    "question": "Where is the Cote de Lechet located?",
     "choices": [
       "Provence",
       "Bordeaux",
@@ -675,7 +675,7 @@ export const questions = [
     "question": "Where is Vaucopins located?",
     "choices": [
       "Chablis",
-      "Chile",
+      "Champagne",
       "Levant",
       "South Africa"
     ],
@@ -688,7 +688,7 @@ export const questions = [
       "20 percent",
       "70 percent",
       "50 percent",
-      "Cabernet none"
+      "none"
     ],
     "answer": "70 percent"
   },
@@ -716,7 +716,7 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "Where is anisette from?",
+    "question": "Where is Anisette from?",
     "choices": [
       "Portugal",
       "Italy",
@@ -1090,7 +1090,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "What is the max residual sugar of Champagne base wine?",
+    "question": "What is the maximum residual sugar of Champagne base wine?",
     "choices": [
       "2 g/l",
       "50 g/l",
@@ -1157,12 +1157,12 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "How long must a colheita madeira be aged?",
+    "question": "How long must a Colheita Madeira be aged?",
     "choices": [
-      "Merlot",
+      "3 yrs",
       "5 yrs",
-      "Tempranillo",
-      "Germany"
+      "7 yrs",
+      "10 yrs"
     ],
     "answer": "5 yrs"
   },
@@ -1179,7 +1179,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Which producer has the term almacenista trademarked?",
+    "question": "Which producer has the term Almacenista trademarked?",
     "choices": [
       "Neipoort",
       "Deiss",
@@ -1289,7 +1289,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "What is the main varietal and min. % for Bandol rouge?",
+    "question": "What is the main grape varietal and minimum % for Bandol rouge?",
     "choices": [
       "100% Mourvedre",
       "50% min. Mourvedre",
@@ -1340,7 +1340,7 @@ export const questions = [
       "Martinborough",
       "Otago"
     ],
-    "answer": "Hawkes Bay, NZ"
+    "answer": "Hawkes Bay"
   },
   {
     "level": "hard",
@@ -1553,14 +1553,14 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Dry white wines from cerons are sold under which aoc?",
+    "question": "Dry white wines from Cerons are sold under which AOC?",
     "choices": [
       "Bordeaux",
-      "Graves aoc",
+      "Graves AOC",
       "Napa Valley",
       "Sauvignon Blanc"
     ],
-    "answer": "Graves aoc"
+    "answer": "Graves AOC"
   },
   {
     "level": "hard",
@@ -1818,7 +1818,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Where is Ch\u00e2teau tahlbik?",
+    "question": "Where is Ch\u00e2teau Tahlbik?",
     "choices": [
       "Barossa Valley, South Australia",
       "Goulbourn Valley, Victoria",
@@ -1829,14 +1829,14 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "What are the parents of zweigelt?",
+    "question": "What are the grape parents of Zweigelt?",
     "choices": [
-      "Bordeaux",
-      "Chile",
-      "Blaufrankisch & st. laurent",
-      "Chardonnay"
+      "Blaufrankisch & Syrah",
+      "Blaufrankisch & Pinot Noir",
+      "Blaufrankisch & St. Laurent",
+      "Chardonnay & Riesling"
     ],
-    "answer": "Blaufrankisch & st. laurent"
+    "answer": "Blaufrankisch & St. Laurent"
   },
   {
     "level": "hard",
@@ -1917,12 +1917,12 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Alternative name for crown gall.?",
+    "question": "What is an alternative name for the crown gall vine disease?",
     "choices": [
-      "Barbera",
-      "Pinot Noir",
+      "Black soiled",
+      "Aspersion",
       "Black knot",
-      "Sauvignon Blanc"
+      "Black root"
     ],
     "answer": "Black knot"
   },
@@ -2049,7 +2049,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "What is the synonym for blaufr\u00e4nkisch in Hungary?",
+    "question": "What is the synonym for Blaufr\u00e4nkisch in Hungary?",
     "choices": [
       "K\u00e9kfrankos",
       "Grenache",
@@ -2109,9 +2109,9 @@ export const questions = [
       "Germany",
       "Portugal",
       "Spain",
-      "Cote de beaune"
+      "Cote de Beaune"
     ],
-    "answer": "Cote de beaune"
+    "answer": "Cote de Beaune"
   },
   {
     "level": "hard",
@@ -3401,3 +3401,1435 @@ export const questions = [
     "answer": "80 years"
   }
 ];
+
+//questions2
+
+[
+  {
+    level: "easy",
+    question: "Where is the region of Stellenbosch located?",
+    choices: [
+      "South Africa",
+      "South Australia",
+      "Southern Chile",
+      "Southern Portugal"
+    ],
+    answer: "South Africa"
+  },
+  {
+    level: "easy",
+    question: "What are the 2 departments of Alsace?",
+    choices: [
+      "North and South",
+      "East and West",
+      "Haut and Bas",
+      "Sud and Ouest"
+    ],
+    answer: "Haut and Bas"
+  },
+  {
+    level: "easy",
+    question: "Which is not a noble grape of Alsace?",
+    choices: [
+      "Riesling",
+      "Pinot Gris",
+      "Muscat",
+      "Merlot"
+    ],
+    answer: "Merlot"
+  },
+  {
+    level: "easy",
+    question: "Which region is home to the city of Strousbourg?",
+    choices: [
+      "Alsace"
+    ],
+    answer: "Alsace"
+  },
+  {
+    level: "easy",
+    question: "Which region sits on the border of Germany?",
+    choices: [
+      "Alsace",
+      "Burgundy",
+      "Bordeaux",
+      "Jura"
+    ],
+    answer: "Alsace"
+  },
+  {
+    level: "easy",
+    question: "In which region will you find S\u00e9lection de Grains Nobles on the label?",
+    choices: [
+      "Alsace",
+      "Burgundy",
+      "Bordeaux",
+      "Jura"
+    ],
+    answer: "Alsace"
+  },
+  {
+    level: "easy",
+    question: "What is the main red grape of Alsace?",
+    choices: [
+      "Pinot Noir",
+      "Cabernet Franc",
+      "Poulsard",
+      "Grenache"
+    ],
+    answer: "Pinot Noir"
+  },
+  {
+    level: "easy",
+    question: "Local specialties vin jaune and vin de paille can be found where?",
+    choices: [
+      "Jura",
+      "Champagne",
+      "Burgundy",
+      "Bordeaux"
+    ],
+    answer: "Jura"
+  },
+  {
+    level: "easy",
+    question: "Where is the region of L\u2019Etoile?",
+    choices: [
+      "Jura",
+      "Champagne",
+      "Burgundy",
+      "Bordeaux"
+    ],
+    answer: "Jura"
+  },
+  {
+    level: "easy",
+    question: "What Champagne house is associated with Dom Perignon?",
+    choices: [
+      "Drappier",
+      "Moet & Chandon",
+      "Selosse",
+      "Veuve Cliquot"
+    ],
+    answer: "Moet & Chandon"
+  },
+  {
+    level: "easy",
+    question: "Where is the Santa Rita Hills AVA?",
+    choices: [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    answer: "California"
+  },
+  {
+    level: "easy",
+    question: "What is chapitalization?",
+    choices: [
+      "Adding water to fermenting wine",
+      "adding sugar to the fermenting wine",
+      "taking water away from wine at bottling",
+      "using a screw cap enclosure"
+    ],
+    answer: "adding sugar to the fermenting wine"
+  },
+  {
+    level: "easy",
+    question: "What contribution is Louis Pasteur responsible for?",
+    choices: [
+      "harvest science",
+      "varietal science",
+      "water table management",
+      "fermentation science"
+    ],
+    answer: "fermentation science"
+  },
+  {
+    level: "easy",
+    question: "Where is the Algarve region?",
+    choices: [
+      "South Africa",
+      "South Australia",
+      "Southern Chile",
+      "Southern Portugal"
+    ],
+    answer: "Southern Portugal"
+  },
+  {
+    level: "easy",
+    question: "What is the main grape of the Gigondas region?",
+    choices: [
+      "Pinot Noir",
+      "Cabernet Franc",
+      "Poulsard",
+      "Grenache"
+    ],
+    answer: "Grenache"
+  },
+  {
+    level: "easy",
+    question: "Which region is known for their ros\u00e9 production?",
+    choices: [
+      "Bordeaux",
+      "Burgundy",
+      "Alsace",
+      "Provence"
+    ],
+    answer: "Provence"
+  },
+  {
+    level: "easy",
+    question: "Which region is known for their Pinot Noir production?",
+    choices: [
+      "Bordeaux",
+      "Burgundy",
+      "Alsace",
+      "Provence"
+    ],
+    answer: "Burgundy"
+  },
+  {
+    level: "easy",
+    question: "Which grape is known for its resemblance to Cabernet Sauvignon?",
+    choices: [
+      "Pinot Noir",
+      "Cabernet Franc",
+      "Poulsard",
+      "Grenache"
+    ],
+    answer: "Cabernet Franc"
+  },
+  {
+    level: "easy",
+    question: "Where is the Willamette Valley?",
+    choices: [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    answer: "Oregon"
+  },
+  {
+    level: "easy",
+    question: "Where is the Long Island AVA?",
+    choices: [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    answer: "New York"
+  },
+  {
+    level: "easy",
+    question: "Where is Sancerre located?",
+    choices: [
+      "Loire Valley",
+      "Bordeaux",
+      "Burgundy",
+      "Champagne"
+    ],
+    answer: "Loire Valley"
+  },
+  {
+    level: "easy",
+    question: "Where would you find the 1855 classification?",
+    choices: [
+      "Loire Valley",
+      "Bordeaux",
+      "Burgundy",
+      "Champagne"
+    ],
+    answer: "Bordeaux"
+  },
+  {
+    level: "easy",
+    question: "Where is the McLaren Vale wine region?",
+    choices: [
+      "South Africa",
+      "South Australia",
+      "Southern Chile",
+      "Southern Portugal"
+    ],
+    answer: "South Australia"
+  },
+  {
+    level: "easy",
+    question: "Where is the Hermitage region?",
+    choices: [
+      "Rh\u00f4ne Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    answer: "Rh\u00f4ne Valley"
+  },
+  {
+    level: "easy",
+    question: "Where is the Condrieu region?",
+    choices: [
+      "Rh\u00f4ne Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    answer: "Rh\u00f4ne Valley"
+  },
+  {
+    level: "easy",
+    question: "Which region is La Grande Dame produced in?",
+    choices: [
+      "Rh\u00f4ne Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    answer: "Champagne"
+  },
+  {
+    level: "easy",
+    question: "Where is the region of Paarl?",
+    choices: [
+      "South Africa",
+      "South Australia",
+      "Southern Chile",
+      "Southern Portugal"
+    ],
+    answer: "South Africa"
+  },
+  {
+    level: "easy",
+    question: "Where is the Columbia Valley AVA?",
+    choices: [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    answer: "Washington State"
+  },
+  {
+    level: "easy",
+    question: "Where is the Red Mountain AVA?",
+    choices: [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    answer: "Washington State"
+  },
+  {
+    level: "easy",
+    question: "Where is Ch\u00e2teauneuf-du-Pape AOP?",
+    choices: [
+      "Rh\u00f4ne Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    answer: "Rh\u00f4ne Valley"
+  },
+  {
+    level: "easy",
+    question: "Where is the Vouvray region?",
+    choices: [
+      "Rh\u00f4ne Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    answer: "Loire Valley"
+  },
+  {
+    level: "easy",
+    question: "Where is the city of Reims located?",
+    choices: [
+      "Rh\u00f4ne Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    answer: "Champagne"
+  },
+  {
+    level: "easy",
+    question: "Where is the city of Nice located?",
+    choices: [
+      "Rh\u00f4ne Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    answer: "Provence"
+  },
+  {
+    level: "easy",
+    question: "Where is the Melon de Borgogne grape found?",
+    choices: [
+      "Rh\u00f4ne Valley",
+      "Provence",
+      "Burgundy",
+      "Loire Valley"
+    ],
+    answer: "Loire Valley"
+  },
+  {
+    level: "easy",
+    question: "What grape is most associated with Napa Valley?",
+    choices: [
+      "Cabernet Sauvignon",
+      "Grenache",
+      "Riesling",
+      "Malbec"
+    ],
+    answer: "Cabernet Sauvignon"
+  },
+  {
+    level: "easy",
+    question: "What grape is most associated with Mendoza, Argentina?",
+    choices: [
+      "Cabernet Sauvignon",
+      "Grenache",
+      "Riesling",
+      "Malbec"
+    ],
+    answer: "Malbec"
+  },
+  {
+    level: "easy",
+    question: "Where is Schloss Johannisberg?",
+    choices: [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    answer: "Germany"
+  },
+  {
+    level: "easy",
+    question: "Which country is associated with Liebfraumilch?",
+    choices: [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    answer: "Germany"
+  },
+  {
+    level: "easy",
+    question: "Where is the region of Tokaj found?",
+    choices: [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    answer: "Hungary"
+  },
+  {
+    level: "easy",
+    question: "Where would you most likely find \"Doctor\" on a wine label?",
+    choices: [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    answer: "Germany"
+  },
+  {
+    level: "easy",
+    question: "What grape is most associated with the Rheingau?",
+    choices: [
+      "Chardonnay",
+      "Grenache",
+      "Riesling",
+      "Malbec"
+    ],
+    answer: "Reisling"
+  },
+  {
+    level: "easy",
+    question: "Where is the Horse Heaven Hills AVA?",
+    choices: [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    answer: "Washington State"
+  },
+  {
+    level: "easy",
+    question: "Which grape is most likely grown in a cooler climate?",
+    choices: [
+      "Viognier",
+      "Grenache",
+      "Riesling",
+      "Malbec"
+    ],
+    answer: "Riesling"
+  },
+  {
+    level: "easy",
+    question: "Which grape is most likely grown near Grenache and Syrah vines?",
+    choices: [
+      "Viognier",
+      "Sauvignon Blanc",
+      "Nebbiolo",
+      "Malbec"
+    ],
+    answer: "Viognier"
+  },
+  {
+    level: "easy",
+    question: "What is an anbaugebiet?",
+    choices: [
+      "German region",
+      "Alsatian lake",
+      "French mountians",
+      "Oregon hills"
+    ],
+    answer: "German region"
+  },
+  {
+    level: "easy",
+    question: "Where is the Wachau wine region?",
+    choices: [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    answer: "Austria"
+  },
+  {
+    level: "easy",
+    question: "Which grape is most associated with Pouilly-Fume?",
+    choices: [
+      "Viognier",
+      "Sauvignon Blanc",
+      "Nebbiolo",
+      "Pinot Noir"
+    ],
+    answer: "Sauvignon Blanc"
+  },
+  {
+    level: "easy",
+    question: "Which grape is mostly associated with the Barbaresco wine region?",
+    choices: [
+      "Merlot",
+      "Sauvignon Blanc",
+      "Nebbiolo",
+      "Pinot Noir"
+    ],
+    answer: "Nebbiolo"
+  },
+  {
+    level: "easy",
+    question: "Which grape is mostly associated with the Medoc wine growing area?",
+    choices: [
+      "Cabernet Sauvignon",
+      "Sauvignon Blanc",
+      "Nebbiolo",
+      "Pinot Noir"
+    ],
+    answer: "Cabernet Sauvignon"
+  },
+  {
+    level: "medium",
+    question: "What mountain range protects Alsace?",
+    choices: [
+      "Dentelles",
+      "Vosges",
+      "Alps",
+      "Massif Central"
+    ],
+    answer: "Vosges"
+  },
+  {
+    level: "medium",
+    question: "Where is Colmar?",
+    choices: [
+      "Bordeaux",
+      "Burgundy",
+      "Alsace",
+      "Provence"
+    ],
+    answer: "Alsace"
+  },
+  {
+    level: "medium",
+    question: "What is gr\u00e9s de Vosges?",
+    choices: [
+      "Weather pattern in Bordeaux",
+      "Soil in Alsace",
+      "Mountain range in Jura",
+      "Lake in Savoie"
+    ],
+    answer: "Soil in Alsace"
+  },
+  {
+    level: "medium",
+    question: "What grape may be included in the bottle if an Alsatian wine says Pinot Blanc?",
+    choices: [
+      "Auxerrois",
+      "Aligote",
+      "Rousette",
+      "Melon Blanc"
+    ],
+    answer: "Auxerrois"
+  },
+  {
+    level: "medium",
+    question: "Tokay d\u2019Alsace was once a common name for what grape?",
+    choices: [
+      "Pinot Gris",
+      "Aligote",
+      "Rousette",
+      "Melon Blanc"
+    ],
+    answer: "Pinot Gris"
+  },
+  {
+    level: "medium",
+    question: "Where is Kanzlerberg?",
+    choices: [
+      "Alsace",
+      "Lorraine",
+      "Provence",
+      "Loire Valley"
+    ],
+    answer: "Alsace"
+  },
+  {
+    level: "medium",
+    question: "Cotes de toul resides in which larger growing AOP?",
+    choices: [
+      "Jura",
+      "Lorraine",
+      "Provence",
+      "Loire Valley"
+    ],
+    answer: "Lorraine"
+  },
+  {
+    level: "medium",
+    question: "Which is not a main grape of the Jura?",
+    choices: [
+      "Poulsard",
+      "Trousseau",
+      "Pinot Noir",
+      "Aligote"
+    ],
+    answer: "Aligote"
+  },
+  {
+    level: "medium",
+    question: "Which region may not produce vin de paille?",
+    choices: [
+      "Arbois",
+      "L'Etoile",
+      "Macvin du Jura",
+      "C\u00f4tes du Jura"
+    ],
+    answer: "Macvin du Jura"
+  },
+  {
+    level: "medium",
+    question: "Where is Lake Bourget?",
+    choices: [
+      "Bordeaux",
+      "Savoie",
+      "Alsace",
+      "Moselle"
+    ],
+    answer: "Savoie"
+  },
+  {
+    level: "medium",
+    question: "Where are the Brokenback Mountains?",
+    choices: [
+      "Albany",
+      "Hunter",
+      "Gisbourne",
+      "Margaret River"
+    ],
+    answer: "Hunter"
+  },
+  {
+    level: "medium",
+    question: "Tyrrell\u2019s Vat 1 is made in which appellation?",
+    choices: [
+      "Hunter Valley",
+      "Mornington Peninsula",
+      "Canberra District",
+      "Barossa Valley"
+    ],
+    answer: "Hunter Valley"
+  },
+  {
+    level: "medium",
+    question: "Which region is shared between New South Wales and the Australian Capital Territory?",
+    choices: [
+      "Mornington Peninsula",
+      "Canberra District",
+      "Barossa Valley",
+      "Hunter Valley"
+    ],
+    answer: "Canberra District"
+  },
+  {
+    level: "medium",
+    question: "Which region does the Port Phillip Bay influence?",
+    choices: [
+      "Mornington Peninsula",
+      "Canberra District",
+      "Orange",
+      "Southern Highlands"
+    ],
+    answer: "Mornington Peninsula"
+  },
+  {
+    level: "medium",
+    question: "Which AVA is not in San Luis Obispo County?",
+    choices: [
+      "Paso Robles",
+      "Arroyo Grande",
+      "North Yuba",
+      "Edna Valley"
+    ],
+    answer: "North Yuba"
+  },
+  {
+    level: "medium",
+    question: "Which area is not in Ontario?",
+    choices: [
+      "Niagara Peninsula",
+      "Lake Erie North Shore",
+      "Pelee Island",
+      "Frasier Valley"
+    ],
+    answer: "Frasier Valley"
+  },
+  {
+    level: "medium",
+    question: "Which is a synonym Chardonnay in Switzerland?",
+    choices: [
+      "Morillon",
+      "Melon Blanc",
+      "Romorantin",
+      "Moscatel"
+    ],
+    answer: "Morillon"
+  },
+  {
+    level: "medium",
+    question: "Where is Ch\u00e2teau Chalon AOP?",
+    choices: [
+      "Jura",
+      "Champagne",
+      "Burgundy",
+      "Bordeaux"
+    ],
+    answer: "Jura"
+  },
+  {
+    level: "medium",
+    question: "Which region ripens first?",
+    choices: [
+      "Alsace",
+      "Burgundy",
+      "Bordeaux",
+      "Jura"
+    ],
+    answer: "Alsace"
+  },
+  {
+    level: "medium",
+    question: "Which area is in British Columbia?",
+    choices: [
+      "Niagara Peninsula",
+      "Lake Erie North Shore",
+      "Pelee Island",
+      "Frasier Valley"
+    ],
+    answer: "Frasier Valley"
+  },
+  {
+    level: "medium",
+    question: "Which region is closest in proximaty to the Cognac region?",
+    choices: [
+      "Bordeaux",
+      "Burgundy",
+      "Alsace",
+      "Provence"
+    ],
+    answer: "Bordeaux"
+  },
+  {
+    level: "medium",
+    question: "What is the main grape of the Cornas region?",
+    choices: [
+      "Grenache",
+      "Syrah",
+      "Mourvedre",
+      "Cinsault"
+    ],
+    answer: "Syrah"
+  },
+  {
+    level: "medium",
+    question: "What is the main grape of the C\u00f4te-R\u00f4tie region?",
+    choices: [
+      "Grenache",
+      "Syrah",
+      "Mourvedre",
+      "Cinsault"
+    ],
+    answer: "Syrah"
+  },
+  {
+    level: "medium",
+    question: "Where is Palette?",
+    choices: [
+      "Rh\u00f4ne Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    answer: "Provence"
+  },
+  {
+    level: "medium",
+    question: "Where is St. Bris AOP?",
+    choices: [
+      "Alsace",
+      "Burgundy",
+      "Bordeaux",
+      "Jura"
+    ],
+    answer: "Burgundy"
+  },
+  {
+    level: "medium",
+    question: "Where is Passe-Tout-Grains produced?",
+    choices: [
+      "Alsace",
+      "Burgundy",
+      "Bordeaux",
+      "Jura"
+    ],
+    answer: "Burgundy"
+  },
+  {
+    level: "medium",
+    question: "Where is Barsac AOP?",
+    choices: [
+      "Alsace",
+      "Burgundy",
+      "Bordeaux",
+      "Jura"
+    ],
+    answer: "Bordeaux"
+  },
+  {
+    level: "medium",
+    question: "What is the minimum ABV % for Pomerol wines?",
+    choices: [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    answer: "11"
+  },
+  {
+    level: "medium",
+    question: "Where is Ajaccio AOP?",
+    choices: [
+      "Alsace",
+      "Corsica",
+      "Bordeaux",
+      "Jura"
+    ],
+    answer: "Corsica"
+  },
+  {
+    level: "medium",
+    question: "Where is the Monticello AVA?",
+    choices: [
+      "Oregon",
+      "Virginia",
+      "New York",
+      "Ohio"
+    ],
+    answer: "Virginia"
+  },
+  {
+    level: "medium",
+    question: "Where is the Central Coast AVA?",
+    choices: [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    answer: "California"
+  },
+  {
+    level: "medium",
+    question: "What grape is most likely growing in Ribbon Ridge?",
+    choices: [
+      "Pinot Noir",
+      "Cabernet Franc",
+      "Merlot",
+      "Grenache"
+    ],
+    answer: "Pinot Noir"
+  },
+  {
+    level: "medium",
+    question: "Where is Bergerac AOP?",
+    choices: [
+      "Southern Rh\u00f4ne Valley",
+      "Provence",
+      "SW France",
+      "Loire Valley"
+    ],
+    answer: "SW France"
+  },
+  {
+    level: "medium",
+    question: "Where is Monbazillac?",
+    choices: [
+      "Rh\u00f4ne Valley",
+      "Western Provence",
+      "SW France",
+      "Loire Valley"
+    ],
+    answer: "SW France"
+  },
+  {
+    level: "medium",
+    question: "Where is Cour-Cheverny?",
+    choices: [
+      "Rh\u00f4ne Valley",
+      "Western Provence",
+      "SW France",
+      "Loire Valley"
+    ],
+    answer: "Loire Valley"
+  },
+  {
+    level: "medium",
+    question: "Where is Chateau Grillet?",
+    choices: [
+      "Rh\u00f4ne Valley",
+      "Western Provence",
+      "SW France",
+      "Loire Valley"
+    ],
+    answer: "Rh\u00f4ne Valley"
+  },
+  {
+    level: "medium",
+    question: "Where is Greco di Tufo DOCG?",
+    choices: [
+      "Tuscany",
+      "Abruzzo",
+      "Campania",
+      "Piedmont"
+    ],
+    answer: "Campania"
+  },
+  {
+    level: "medium",
+    question: "Where is Taurasi DOCG?",
+    choices: [
+      "Tuscany",
+      "Abruzzo",
+      "Campania",
+      "Piedmont"
+    ],
+    answer: "Campania"
+  },
+  {
+    level: "medium",
+    question: "Where would you find the Dolcetto grape growing?",
+    choices: [
+      "Tuscany",
+      "Abruzzo",
+      "Campania",
+      "Piedmont"
+    ],
+    answer: "Piedmont"
+  },
+  {
+    level: "medium",
+    question: "Where would you find the Fiano grape growing?",
+    choices: [
+      "Tuscany",
+      "Abruzzo",
+      "Campania",
+      "Piedmont"
+    ],
+    answer: "Campania"
+  },
+  {
+    level: "medium",
+    question: "Where is the Geisenheim Wine Institute?",
+    choices: [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    answer: "Germany"
+  },
+  {
+    level: "medium",
+    question: "Where is Lake Balanton?",
+    choices: [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    answer: "Hungary"
+  },
+  {
+    level: "medium",
+    question: "Where is the Goldtr\u00f6pfchen vineyard?",
+    choices: [
+      "Rheingau",
+      "Mosel",
+      "Rheinhessen",
+      "Nahe"
+    ],
+    answer: "Mosel"
+  },
+  {
+    level: "medium",
+    question: "Where is the \u00dcrziger W\u00fcrzgarten vineyard?",
+    choices: [
+      "Rheingau",
+      "Mosel",
+      "Rheinhessen",
+      "Nahe"
+    ],
+    answer: "Mosel"
+  },
+  {
+    level: "medium",
+    question: "Which region does the Eifel Mountains influence?",
+    choices: [
+      "Rheingau",
+      "Mosel",
+      "Ahr",
+      "Nahe"
+    ],
+    answer: "Ahr"
+  },
+  {
+    level: "medium",
+    question: "Sp\u00e4tburgunder is a synonym for which grape in Germany?",
+    choices: [
+      "Grenache",
+      "Syrah",
+      "Pinot Noir",
+      "Cinsault"
+    ],
+    answer: "Pinot Noir"
+  },
+  {
+    level: "medium",
+    question: "Where is the bocksbeutel bottle utilized?",
+    choices: [
+      "Rheingau",
+      "Baden",
+      "Ahr",
+      "Franken"
+    ],
+    answer: "Franken"
+  },
+  {
+    level: "medium",
+    question: "What does trocken indicate on a German wine label?",
+    choices: [
+      "Sweet",
+      "Dry",
+      "Sparkling",
+      "Aged"
+    ],
+    answer: "Dry"
+  },
+  {
+    level: "medium",
+    question: "Where would you find the designation Districtus Austriae Controllatus (DAC)?",
+    choices: [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    answer: "Austria"
+  },
+  {
+    level: "medium",
+    question: "What city would you find Wiener Gemischter Satz being produced?",
+    choices: [
+      "Budapest",
+      "Venice",
+      "Vienna",
+      "Berlin"
+    ],
+    answer: "Vienna"
+  },
+  {
+    level: "medium",
+    question: "Which is not a subregion of the Douro Valley?",
+    choices: [
+      "Baixo Corgo",
+      "Cima Corgo",
+      "Douro Superior",
+      "Minho Superior"
+    ],
+    answer: "Minho Superior"
+  },
+  {
+    level: "medium",
+    question: "Which region is guarded by a \"rain shadow\" effect of the local mountains?",
+    choices: [
+      "Bordeaux",
+      "Alsace",
+      "Champagne",
+      "Provence"
+    ],
+    answer: "Alsace"
+  },
+  {
+    level: "hard",
+    question: "What is the synonym for Chasselas in Alsace?",
+    choices: [
+      "Gutedel",
+      "Roussette",
+      "Fiano",
+      "Melon Blanc"
+    ],
+    answer: "Gutedel"
+  },
+  {
+    level: "hard",
+    question: "What is the synonym for Pinot Blanc in Alsace?",
+    choices: [
+      "Klevner",
+      "Gutedel",
+      "Melon Blanc",
+      "Roussette"
+    ],
+    answer: "Klevner"
+  },
+  {
+    level: "hard",
+    question: "Which year was Kaefferkopf added to the Grand Cru list in Alsace?",
+    choices: [
+      "2002",
+      "2004",
+      "2007",
+      "2009"
+    ],
+    answer: "2007"
+  },
+  {
+    level: "hard",
+    question: "What is the % of minimum potential alcohol for Reisling in Alsace Grand Cru AOP?",
+    choices: [
+      "11",
+      "12.5",
+      "13.5",
+      "14"
+    ],
+    answer: "11"
+  },
+  {
+    level: "hard",
+    question: "What grape is Vorbourg Grand Cru made with?",
+    choices: [
+      "Pinot Noir",
+      "Chardonnay",
+      "Reisling",
+      "Pinot gris"
+    ],
+    answer: "Pinot Noir"
+  },
+  {
+    level: "hard",
+    question: "What is the minimum ABV % for Cr\u00e9mant du Jura?",
+    choices: [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    answer: "9"
+  },
+  {
+    level: "hard",
+    question: "What is the minimum time in oak (months) for Macvin du Jura?",
+    choices: [
+      "6",
+      "10",
+      "12",
+      "24"
+    ],
+    answer: "10"
+  },
+  {
+    level: "hard",
+    question: "Can a producer chapitalize vin de paille in the Jura in poor vintages?",
+    choices: [
+      "Yes",
+      "No",
+      "With AOP Permission",
+      "2 times every decade"
+    ],
+    answer: "No"
+  },
+  {
+    level: "hard",
+    question: "What is the grape of Chignin-Bergeron?",
+    choices: [
+      "Marsanne",
+      "Roussane",
+      "Grenache Blanc",
+      "Chardonnay"
+    ],
+    answer: "Roussane"
+  },
+  {
+    level: "hard",
+    question: "What years was the Australia Wine and Brandy Corporation founded?",
+    choices: [
+      "1971",
+      "1981",
+      "1991",
+      "2001"
+    ],
+    answer: "1981"
+  },
+  {
+    level: "hard",
+    question: "Which AOP does not produce Muscat de Noel?",
+    choices: [
+      "Muscat de Rivesaltes",
+      "Muscat de Saint-Jean-de-Minervois",
+      "Muscat de Frontignan",
+      "Muscat de Lunel"
+    ],
+    answer: "Muscat de Frontignan"
+  },
+  {
+    level: "hard",
+    question: "Which producer is not in Bandol?",
+    choices: [
+      "Domaine Tempier",
+      "Ch\u00e2teau de Pibarnon",
+      "Domaine Ott",
+      "Ch\u00e2teau Pradeaux"
+    ],
+    answer: "Domaine Ott"
+  },
+  {
+    level: "hard",
+    question: "Which area is not in Okanagan Valley?",
+    choices: [
+      "Golden Mile",
+      "Black Sage/Osoyoos",
+      "Pelee Island",
+      "Naramata"
+    ],
+    answer: "Pelee Island"
+  },
+  {
+    level: "hard",
+    question: "What is Centerbe?",
+    choices: [
+      "Dry cider from Tuscany",
+      "Herbal liquer Abruzzo",
+      "Sweet wine from Elba",
+      "White grape from Campania"
+    ],
+    answer: "Herbal liquer Abruzzo"
+  },
+  {
+    level: "hard",
+    question: "What is the minimum ABV % for Ch\u00e2teauneuf-du-Pape AOP?",
+    choices: [
+      "11.5",
+      "12.5",
+      "13.5",
+      "14"
+    ],
+    answer: "12.5"
+  },
+  {
+    level: "hard",
+    question: "Which region is planted En Ligne and Au Carr\u00e9?",
+    choices: [
+      "Hermitage",
+      "Ch\u00e2teauneuf-du-Pape",
+      "Condrieu",
+      "St-Joseph"
+    ],
+    answer: "Ch\u00e2teauneuf-du-Pape"
+  },
+  {
+    level: "hard",
+    question: "What grape is known as Malvoisie de Corse?",
+    choices: [
+      "Pinot Noir",
+      "Vermentino",
+      "Reisling",
+      "Picoutener"
+    ],
+    answer: "Vermentino"
+  },
+  {
+    level: "hard",
+    question: "What is Ros\u00e9 des Riceys made from?",
+    choices: [
+      "Pinot Noir",
+      "Cabernet Franc",
+      "Reisling",
+      "Picoutener"
+    ],
+    answer: "Pinot Noir"
+  },
+  {
+    level: "hard",
+    question: "Which grape is most likely found in Rosette AOC?",
+    choices: [
+      "Gutedel",
+      "Roussette",
+      "Fiano",
+      "Sauvignon Blanc"
+    ],
+    answer: "Sauvignon Blanc"
+  },
+  {
+    level: "hard",
+    question: "Where is Ortonoa DOC?",
+    choices: [
+      "Tuscany",
+      "Abruzzo",
+      "Campania",
+      "Piedmont"
+    ],
+    answer: "Abruzzo"
+  },
+  {
+    level: "hard",
+    question: "What is the minimum % of Montelpuciano in Colline Teramane?",
+    choices: [
+      "80",
+      "85",
+      "90",
+      "95"
+    ],
+    answer: "90"
+  },
+  {
+    level: "hard",
+    question: "Where would you find the Ruch\u00e8 grape growing?",
+    choices: [
+      "Tuscany",
+      "Abruzzo",
+      "Campania",
+      "Piedmont"
+    ],
+    answer: "Piedmont"
+  },
+  {
+    level: "hard",
+    question: "If a German wine label has a grape variety on it, what % of that grape must be in the bottle?",
+    choices: [
+      "80",
+      "85",
+      "90",
+      "95"
+    ],
+    answer: "85"
+  },
+  {
+    level: "hard",
+    question: "Where is the Orsteil of Eitelsbach?",
+    choices: [
+      "Rheingau",
+      "Mosel",
+      "Rheinhessen",
+      "Nahe"
+    ],
+    answer: "Mosel"
+  },
+  {
+    level: "hard",
+    question: "Where is Erbacher Marcobrunn located?",
+    choices: [
+      "Rheingau",
+      "Mosel",
+      "Rheinhessen",
+      "Nahe"
+    ],
+    answer: "Rheingau"
+  },
+  {
+    level: "hard",
+    question: "Which wine region has an area known as the Roter Hang?",
+    choices: [
+      "Rheingau",
+      "Mosel",
+      "Rheinhessen",
+      "Nahe"
+    ],
+    answer: "Rheinhessen"
+  },
+  {
+    level: "hard",
+    question: "Which region does Meyer-N\u00e4kel prodcue wine in?",
+    choices: [
+      "Rheingau",
+      "Mosel",
+      "Ahr",
+      "Nahe"
+    ],
+    answer: "Ahr"
+  },
+  {
+    level: "hard",
+    question: "Who produces Quinta do Bomfim?",
+    choices: [
+      "Churchills",
+      "Dows",
+      "Calem",
+      "Delaforce"
+    ],
+    answer: "Dows"
+  },
+  {
+    level: "hard",
+    question: "Who produces Quinta do Panascal?",
+    choices: [
+      "Churchills",
+      "Dows",
+      "Calem",
+      "Fonseca"
+    ],
+    answer: "Fonseca"
+  }
+]
