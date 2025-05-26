@@ -763,9 +763,9 @@ export const questions = [
     "question": "What is Orujo?",
     "choices": [
       "Argentinian vodka",
-      "Rioja pomace brandy",
+      "Morroccan pomace brandy",
       "Spanish pomace brandy",
-      "German Sake"
+      "German schnapps"
     ],
     "answer": "Spanish pomace brandy"
   },
@@ -905,12 +905,12 @@ export const questions = [
     "level": "medium",
     "question": "Where is the Mt. Lofty Ranges located?",
     "choices": [
-      "Mclaren Vale, Australia",
+      "McLaren Vale, Australia",
       "Porto, Portugal",
       "Santiago, Chile",
       "Southern France"
     ],
-    "answer": "Mclaren Vale, Australia"
+    "answer": "McLaren Vale, Australia"
   },
   {
     "level": "medium",
@@ -1190,7 +1190,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "What is the minimum abv of Sauternes?",
+    "question": "What is the minimum ABV of Sauternes?",
     "choices": [
       "15% (12% acquired)",
       "18%",
@@ -1555,10 +1555,10 @@ export const questions = [
     "level": "hard",
     "question": "Dry white wines from Cerons are sold under which AOC?",
     "choices": [
-      "Bordeaux",
+      "Bordeaux AOC",
       "Graves AOC",
-      "Napa Valley",
-      "Sauvignon Blanc"
+      "Haut-Medoc AOC",
+      "Entre-deux-Mers AOC"
     ],
     "answer": "Graves AOC"
   },
@@ -1939,7 +1939,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "What is the min. ABV for Muscat Beaumes de Venise?",
+    "question": "What is the minimum residual sugar for Muscat Beaumes de Venise?",
     "choices": [
       "Min. 100 rs g/l",
       "Min. 120 rs g/l",
@@ -2247,7 +2247,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Where is El Hierro is located?",
+    "question": "Where is El Hierro located?",
     "choices": [
       "Andalucia",
       "Porto",
@@ -2907,7 +2907,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "What is the abv for Vermetino di Gallura Superiore DOCG?",
+    "question": "What is the ABV for Vermetino di Gallura Superiore DOCG?",
     "choices": [
       "11 percent",
       "12 percent",
@@ -3270,7 +3270,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "What is the minimum abv for port wine?",
+    "question": "What is the minimum ABV for port wine?",
     "choices": [
       "25 percent",
       "16 percent",
