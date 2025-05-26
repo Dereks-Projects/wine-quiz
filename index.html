@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Test your wine knowledge with the Wine Quiz App. Choose your level, take quizzes or flashcards, and improve your wine education." />
-  <meta name="keywords" content="wine quiz, wine trivia, wine flashcards, wine education, sommelier training" />
+  <meta name="description" content="Test your wine knowledge with the Wine Quiz App. Choose your level, take quizzes, and improve your wine education." />
+  <meta name="keywords" content="wine quiz, wine trivia, wine education, sommelier training" />
   <meta name="author" content="Derek Engles" />
   <meta name="robots" content="index, follow" />
   <meta property="og:title" content="Wine Quiz App – Test Your Wine Knowledge!" />
-  <meta property="og:description" content="Challenge yourself with interactive wine quizzes and flashcards. Fun, fast, and educational." />
+  <meta property="og:description" content="Challenge yourself with interactive wine quizzes. Fun, fast, and educational." />
   <meta property="og:image" content="https://www.winequizzes.net/images/social-preview.jpg" />
   <meta property="og:url" content="https://www.winequizzes.net/" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Wine Quiz App – Test Your Wine Knowledge!" />
-  <meta name="twitter:description" content="Challenge yourself with interactive wine quizzes and flashcards." />
+  <meta name="twitter:description" content="Challenge yourself with interactive wine quizzes." />
   <meta name="twitter:image" content="https://www.winequizzes.net/images/social-preview.jpg" />
 
   <title>Wine Quizzes</title>
@@ -27,7 +27,7 @@
 
   <div class="app-container">
     <h1>Test your Knowledge on Wine</h1>
-    <h5>Take a quiz or study with flashcards. Choose your level and start now!</h5>
+    <h5>Choose your level and start now!</h5>
 
     <!-- 🚦 Level + Mode Selection -->
     <div id="level-selection" style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
@@ -44,11 +44,7 @@
         <label><input type="radio" name="mode" value="exam" /> Exam Mode (20 questions)</label>
       </div>
 
-      <!-- ✅ Two Buttons with Tight Spacing -->
-      <div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
-        <button id="start-btn">Start Test</button>
-        <button id="enter-flashcards">Study with Flashcards</button>
-      </div>
+      <button id="start-btn">Start Test</button>
     </div>
 
     <!-- ❓ Quiz Interface -->
@@ -72,39 +68,10 @@
       <div id="review-list"></div>
     </div>
 
-    <!-- 🧠 Flashcard Section -->
-    <div id="flashcard-section" class="hidden" style="padding: 2rem 1rem; max-width: 900px; margin: 0 auto;">
-      <h2>Flashcards Mode</h2>
-      <div id="flashcard-level-select">
-        <label for="flashcard-difficulty">Select Difficulty:</label>
-        <select id="flashcard-difficulty">
-          <option value="easy">Level 1 - Introductory</option>
-          <option value="medium">Level 2 - Intermediate</option>
-          <option value="hard">Level 3 - Advanced</option>
-        </select>
-        <button id="flashcard-start">Start Flashcards</button>
-      </div>
-
-      <div id="flashcard-container" class="hidden">
-        <div class="flashcard" style="position: relative; height: 200px;">
-          <div class="flashcard-front" id="flashcard-front" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
-          <div class="flashcard-back hidden" id="flashcard-back" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
-        </div>
-
-        <div class="flashcard-controls">
-          <button id="prev-flashcard">Previous</button>
-          <button id="flip-flashcard">Flip</button>
-          <button id="next-flashcard">Next</button>
-        </div>
-
-        <button id="exit-flashcards" style="margin-top: 1rem;">Exit Flashcards</button>
-      </div>
-    </div>
-
     <!-- ✅ Footer -->
     <footer class="app-footer">
       <p><a href="https://www.derekengles.com" target="_blank">Created by Derek Engles</a></p>
-      <p><a href="mailto:derek@somm.site">Contact Me</a> | <a href="https://www.somm.site">Learn More</a></p>
+      <p><a href="mailto:derekengles@gmail.com">Contact Me</a> | <a href="https://www.somm.site">Learn More</a></p>
     </footer>
   </div>
 

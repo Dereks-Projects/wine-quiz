@@ -1,7 +1,6 @@
 import { questions } from './questions.js';
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Quiz Elements
   const startButton = document.getElementById("start-btn");
   const difficultySelect = document.getElementById("difficulty");
   const quizContainer = document.getElementById("quiz");
@@ -17,21 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const reviewList = document.getElementById("review-list");
   const htmlElement = document.documentElement;
 
-  // Flashcard Elements
-  const flashcardLaunch = document.getElementById("flashcard-launch");
-  const flashcardSection = document.getElementById("flashcard-section");
-  const flashcardLevelSelect = document.getElementById("flashcard-level-select");
-  const flashcardStart = document.getElementById("flashcard-start");
-  const flashcardContainer = document.getElementById("flashcard-container");
-  const flashcardFront = document.getElementById("flashcard-front");
-  const flashcardBack = document.getElementById("flashcard-back");
-  const prevFlashcard = document.getElementById("prev-flashcard");
-  const nextFlashcard = document.getElementById("next-flashcard");
-  const flipFlashcard = document.getElementById("flip-flashcard");
-  const exitFlashcards = document.getElementById("exit-flashcards");
-  const flashcardDifficulty = document.getElementById("flashcard-difficulty");
-
-  // Quiz State
   let timeLeft = 0;
   let globalTimerInterval = null;
   let quizTimerInterval = null;
@@ -42,15 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let showImmediateFeedback = true;
   let answerLog = [];
 
-  // Flashcard State
-  let flashcardDeck = [];
-  let currentCardIndex = 0;
-  let showingBack = false;
-
-  // Initial state lock scroll
   htmlElement.classList.add("scroll-locked");
 
-  // === QUIZ LOGIC ===
   startButton.addEventListener("click", () => {
     const level = difficultySelect.value;
     const selectedRadio = document.querySelector('input[name="mode"]:checked');
@@ -253,57 +230,4 @@ document.addEventListener("DOMContentLoaded", () => {
       button.style.backgroundColor = "#ccc";
     });
   }
-
-  // === FLASHCARD LOGIC ===
-  document.getElementById("enter-flashcards").addEventListener("click", () => {
-    flashcardSection.classList.remove("hidden");
-    flashcardLaunch.classList.add("hidden");
-  });
-
-  flashcardStart.addEventListener("click", () => {
-    const selectedLevel = flashcardDifficulty.value;
-    const allFiltered = questions.filter(q => q.level === selectedLevel);
-    flashcardDeck = allFiltered.sort(() => Math.random() - 0.5).slice(0, 15);
-    currentCardIndex = 0;
-    showingBack = false;
-    flashcardLevelSelect.classList.add("hidden");
-    flashcardContainer.classList.remove("hidden");
-    renderFlashcard();
-  });
-
-  function renderFlashcard() {
-    const card = flashcardDeck[currentCardIndex];
-    flashcardFront.innerText = card.question;
-    flashcardBack.innerText = card.answer;
-    flashcardBack.classList.add("hidden");
-    flashcardFront.classList.remove("hidden");
-    showingBack = false;
-  }
-
-  flipFlashcard.addEventListener("click", () => {
-    showingBack = !showingBack;
-    flashcardBack.classList.toggle("hidden", !showingBack);
-    flashcardFront.classList.toggle("hidden", showingBack);
-  });
-
-  nextFlashcard.addEventListener("click", () => {
-    if (currentCardIndex < flashcardDeck.length - 1) {
-      currentCardIndex++;
-      renderFlashcard();
-    }
-  });
-
-  prevFlashcard.addEventListener("click", () => {
-    if (currentCardIndex > 0) {
-      currentCardIndex--;
-      renderFlashcard();
-    }
-  });
-
-  exitFlashcards.addEventListener("click", () => {
-    flashcardContainer.classList.add("hidden");
-    flashcardLevelSelect.classList.remove("hidden");
-    flashcardSection.classList.add("hidden");
-    flashcardLaunch.classList.remove("hidden");
-  });
 });
