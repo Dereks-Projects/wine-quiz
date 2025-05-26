@@ -1685,7 +1685,7 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Where are the Levant winds?",
+    "question": "Where are the Levant winds found?",
     "choices": [
       "Galicia",
       "Toro",
@@ -2324,116 +2324,6 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Where is St. Josephs abbey?",
-    "choices": [
-      "Chile",
-      "Italy",
-      "Massachusetts",
-      "France"
-    ],
-    "answer": "Massachusetts"
-  },
-  {
-    "level": "hard",
-    "question": "What type of beer is a gueuze?",
-    "choices": [
-      "Lambic",
-      "Strong ale",
-      "Cider",
-      "English lager"
-    ],
-    "answer": "Lambic"
-  },
-  {
-    "level": "hard",
-    "question": "What type of beer is a mars?",
-    "choices": [
-      "Lambic",
-      "Strong ale",
-      "Cider",
-      "English lager"
-    ],
-    "answer": "Lambic"
-  },
-  {
-    "level": "hard",
-    "question": "What type of beer is a faro?",
-    "choices": [
-      "Sparkling cider",
-      "Fortified lager",
-      "Lambic",
-      "Kvass"
-    ],
-    "answer": "Lambic"
-  },
-  {
-    "level": "hard",
-    "question": "What type of beer is a kriek?",
-    "choices": [
-      "Cherry flavored lambic",
-      "Apple flavored ale",
-      "Berry flavored lager",
-      "Dry hopped lager"
-    ],
-    "answer": "Cherry flavored lambic"
-  },
-  {
-    "level": "hard",
-    "question": "What type of base is kvass made from?",
-    "choices": [
-      "Wheat",
-      "Potatoes",
-      "Grapes",
-      "Rye"
-    ],
-    "answer": "Rye"
-  },
-  {
-    "level": "hard",
-    "question": "Where is biere de garde made?",
-    "choices": [
-      "Portugal and Spain",
-      "Italy and Germany",
-      "Belgium and France",
-      "France and USA"
-    ],
-    "answer": "Belgium and France"
-  },
-  {
-    "level": "hard",
-    "question": "What is a dunkel?",
-    "choices": [
-      "Dark lager",
-      "Sweet ale",
-      "Dry cider",
-      "Dry hopped ale"
-    ],
-    "answer": "Dark lager"
-  },
-  {
-    "level": "hard",
-    "question": "What is a Marzen?",
-    "choices": [
-      "Dry cider",
-      "Festival lager",
-      "Sparkling wine",
-      "Sweet sake"
-    ],
-    "answer": "Festival lager"
-  },
-  {
-    "level": "hard",
-    "question": "What style of beer is a Baltic porter?",
-    "choices": [
-      "Dry Hopped",
-      "Stout",
-      "Rye based lager",
-      "Ale"
-    ],
-    "answer": "Ale"
-  },
-  {
-    "level": "hard",
     "question": "Where is the premier cru of Sillery?",
     "choices": [
       "Montagne de Reims",
@@ -2546,10 +2436,10 @@ export const questions = [
     "level": "hard",
     "question": "What wind occurence impact western Australia?",
     "choices": [
-      "Barbera",
+      "Zonda",
       "Fremantle doctor",
-      "Argentina",
-      "Spain"
+      "Pacific breeze",
+      "Petaluma Gap"
     ],
     "answer": "Fremantle doctor"
   },
@@ -2665,12 +2555,12 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Who produces cuv\u00e9e orpale?",
+    "question": "Who produces Cuv\u00e9e Orpale?",
     "choices": [
-      "Italy",
-      "Alsace",
+      "Gratien",
+      "Moet & Chandon",
       "Union Champagne",
-      "Usa"
+      "Selosse"
     ],
     "answer": "Union Champagne"
   },
@@ -4832,4 +4722,1018 @@ export const questions = [
     ],
     answer: "Fonseca"
   }
+  [
+  {
+    level: "easy",
+    question: "Where is the Hawkes Bay wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "New Zealand"
+  },
+  {
+    level: "easy",
+    question: "Where is the Margaret River wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Australia"
+  },
+  {
+    level: "easy",
+    question: "Where is the Pinotage grape most likley grown?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "South Africa"
+    ],
+    answer: "South Africa"
+  },
+  {
+    level: "easy",
+    question: "Which grape is most likely grown in Barossa Valley?",
+    choices: [
+      "Vidal",
+      "Shiraz",
+      "Pinot Noir",
+      "Pinotage"
+    ],
+    answer: "Shiraz"
+  },
+  {
+    level: "easy",
+    question: "Which grape is most likely grown in McLaren Vale?",
+    choices: [
+      "Sauvignon Blanc",
+      "Shiraz",
+      "Pinot Noir",
+      "Pinotage"
+    ],
+    answer: "Shiraz"
+  },
+  {
+    level: "easy",
+    question: "Where is the Patagonia wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Argentina"
+  },
+  {
+    level: "easy",
+    question: "Where is the Maipo Valley wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Chile"
+  },
+  {
+    level: "easy",
+    question: "What country is Almaviva produced in?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Chile"
+  },
+  {
+    level: "easy",
+    question: "Where is the Santorini wine region?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    answer: "Greece"
+  },
+  {
+    level: "easy",
+    question: "What is botrytis cinerea?",
+    choices: [
+      "a vineyard mushroom",
+      "a fungus",
+      "a yeast strain",
+      "the Latin god of wine"
+    ],
+    answer: "a fungus"
+  },
+  {
+    level: "easy",
+    question: "Where is the VQA found?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Canada"
+    ],
+    answer: "Canada"
+  },
+  {
+    level: "easy",
+    question: "Where is the Lake Erie North Shore found?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Canada"
+    ],
+    answer: "Canada"
+  },
+  {
+    level: "easy",
+    question: "Where is the Valle de Guadalupe?",
+    choices: [
+      "Australia",
+      "Mexico",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Mexico"
+  },
+  {
+    level: "easy",
+    question: "Where is the Coonawara wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Australia"
+  },
+  {
+    level: "easy",
+    question: "What is the main grape used for the wines of Cornas?",
+    choices: [
+      "Grenache",
+      "Syrah",
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    answer: "Syrah"
+  },
+  {
+    level: "easy",
+    question: "What is the main grape used for the wines of C\u00f4te-R\u00f4tie?",
+    choices: [
+      "Grenache",
+      "Syrah",
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    answer: "Syrah"
+  },
+  {
+    level: "easy",
+    question: "What is the main grape used for the wines of Gigondas?",
+    choices: [
+      "Grenache",
+      "Syrah",
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    answer: "Grenache"
+  },
+  {
+    level: "easy",
+    question: "What is the main grape used for the wines of Pomerol?",
+    choices: [
+      "Grenache",
+      "Syrah",
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    answer: "Merlot"
+  },
+  {
+    level: "easy",
+    question: "Which country would Cr\u00e9mant sparkling wines be found in?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "France"
+    ],
+    answer: "France"
+  },
+  {
+    level: "easy",
+    question: "Which country would Sancerre be found in?",
+    choices: [
+      "England",
+      "Hungary",
+      "Romania",
+      "France"
+    ],
+    answer: "France"
+  },
+  {
+    level: "easy",
+    question: "What is the German tern for \"dry\"?",
+    choices: [
+      "grosslage",
+      "trocken",
+      "tresterbrand",
+      "winzer"
+    ],
+    answer: "trocken"
+  },
+  {
+    level: "easy",
+    question: "Where is the Pfalz wine region?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    answer: "Germany"
+  },
+  {
+    level: "easy",
+    question: "Where is the Nahe wine region?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    answer: "Germany"
+  },
+  {
+    level: "easy",
+    question: "Where is the Baden wine region?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    answer: "Germany"
+  },
+  {
+    level: "easy",
+    question: "Where is the Franken wine region?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    answer: "Germany"
+  },
+  {
+    level: "easy",
+    question: "Where is the Ahr wine region?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    answer: "Germany"
+  },
+  {
+    level: "easy",
+    question: "What is the synonym for Pinot Noir in Germany?",
+    choices: [
+      "Pinot Gris",
+      "Sp\u00e4tburgunder",
+      "Septime",
+      "Johannisberg"
+    ],
+    answer: "Sp\u00e4tburgunder"
+  },
+  {
+    level: "easy",
+    question: "Where is the Zempl\u00e9n wine region?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    answer: "Hungary"
+  },
+  {
+    level: "medium",
+    question: "Where is the Auckland wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "New Zealand"
+  },
+  {
+    level: "medium",
+    question: "Where is the Mornington Peninsula wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Australia"
+  },
+  {
+    level: "medium",
+    question: "Where is the Torront\u00e9s grape most likley grown?",
+    choices: [
+      "Spain",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Argentina"
+  },
+  {
+    level: "medium",
+    question: "Where is the Shoalhaven Coast wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Australia"
+  },
+  {
+    level: "medium",
+    question: "Where is the Kumeu wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "USA"
+    ],
+    answer: "New Zealand"
+  },
+  {
+    level: "medium",
+    question: "Where is the Gisbourne wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Australia"
+  },
+  {
+    level: "medium",
+    question: "Where is the Bannockburn wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "New Zealand"
+  },
+  {
+    level: "medium",
+    question: "Where is the Limestone Coast wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "USA"
+    ],
+    answer: "Australia"
+  },
+  {
+    level: "medium",
+    question: "Where is the Yarra Valley wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Australia"
+  },
+  {
+    level: "medium",
+    question: "Where is the Luj\u00e1n de Cuyo wine region?",
+    choices: [
+      "Spain",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Argentina"
+  },
+  {
+    level: "medium",
+    question: "Where are the Criolla Grande and Cereza grapes most prevalent?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Argentina"
+  },
+  {
+    level: "medium",
+    question: "Where is Vi\u00f1edo Chadwick produced?",
+    choices: [
+      "Uruguay",
+      "Spain",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Chile"
+  },
+  {
+    level: "medium",
+    question: "Who produces Clos Apalta?",
+    choices: [
+      "Montes",
+      "Torres",
+      "Casa Lapostolle",
+      "Concha Y Toro"
+    ],
+    answer: "Casa Lapostolle"
+  },
+  {
+    level: "medium",
+    question: "Who produces Don Melchor?",
+    choices: [
+      "Montes",
+      "Torres",
+      "Casa Lapostolle",
+      "Concha Y Toro"
+    ],
+    answer: "Concha Y Toro"
+  },
+  {
+    level: "medium",
+    question: "Which grape is found in Chile more than it is found in Argentina?",
+    choices: [
+      "Merlot",
+      "Carmen\u00e8re",
+      "Syrah",
+      "Pinot Noir"
+    ],
+    answer: "Carmen\u00e8re"
+  },
+  {
+    level: "medium",
+    question: "Where is the Uco Valley?",
+    choices: [
+      "San Juan",
+      "Mendoza",
+      "Maipo",
+      "Santiago"
+    ],
+    answer: "Mendoza"
+  },
+  {
+    level: "medium",
+    question: "Where is Retsina produced?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    answer: "Greece"
+  },
+  {
+    level: "medium",
+    question: "Where is the Paros wine region?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    answer: "Greece"
+  },
+  {
+    level: "medium",
+    question: "Where are the islands of Lemnos and Rhodes?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    answer: "Greece"
+  },
+  {
+    level: "medium",
+    question: "Which mountain range impacts the Tokaj regoin?",
+    choices: [
+      "Alps",
+      "Carpathian",
+      "Dentelles",
+      "Dolomite"
+    ],
+    answer: "Carpathian"
+  },
+  {
+    level: "medium",
+    question: "Where would you find R\u00e1k\u00f3czy\u2019s original classification?",
+    choices: [
+      "Tokaj",
+      "Andorra",
+      "Sopron",
+      "Andalucia"
+    ],
+    answer: "Tokaj"
+  },
+  {
+    level: "medium",
+    question: "Where is Egri Bikav\u00e9r produced?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    answer: "Hungary"
+  },
+  {
+    level: "medium",
+    question: "Where is the Great Southern wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "USA"
+    ],
+    answer: "Australia"
+  },
+  {
+    level: "medium",
+    question: "Where is the Gaillac wine region?",
+    choices: [
+      "Provence",
+      "Languedoc",
+      "Rousillon",
+      "SW France"
+    ],
+    answer: "SW France"
+  },
+  {
+    level: "medium",
+    question: "Where is the Madiran wine region?",
+    choices: [
+      "Provence",
+      "Languedoc",
+      "Rousillon",
+      "SW France"
+    ],
+    answer: "SW France"
+  },
+  {
+    level: "medium",
+    question: "Where is the Monbazillac wine region?",
+    choices: [
+      "Provence",
+      "Languedoc",
+      "Rousillon",
+      "SW France"
+    ],
+    answer: "SW France"
+  },
+  {
+    level: "medium",
+    question: "Where is the Gaillac wine region?",
+    choices: [
+      "Provence",
+      "Languedoc",
+      "Rousillon",
+      "SW France"
+    ],
+    answer: "SW France"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in Monbazillac?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Sweet White"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in Cahors?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Dry Red"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in Carmignano?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Dry Red"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in Bardolino Superiore?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Dry Red"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in Soave Superiore?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Dry White"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in Nobile di Montepulciano?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Dry Red"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in Cerasuolo di Vittoria DOCG?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Dry Red"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in Valtellina Superiore?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Dry Red"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in C\u00f2nero Riserva DOCG?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Dry Red"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in Arbois?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "All of these"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in l'Etoile?",
+    choices: [
+      "Vin Jaune",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "All of these"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in Cornas?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Dry Red"
+  },
+  {
+    level: "medium",
+    question: "What style of wine is produced in Ch\u00e2teau-Grillet?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Dry White"
+  },
+  {
+    level: "medium",
+    question: "What is the maximum residual sugar % found in Cr\u00e9mant de Die?",
+    choices: [
+      "12 g/l",
+      "15 g/l",
+      "21 g/l",
+      "33 g/l"
+    ],
+    answer: "15 g/l"
+  },
+  {
+    level: "medium",
+    question: "What is Edelf\u00e4ule the Germanic term for?",
+    choices: [
+      "single vineyard",
+      "noble rot",
+      "cooperative producer",
+      "hand harvest"
+    ],
+    answer: "noble rot"
+  },
+  {
+    level: "hard",
+    question: "Where is the Aconcagua wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Chile"
+  },
+  {
+    level: "hard",
+    question: "Where is the Big Rivers wine region?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "USA"
+    ],
+    answer: "Australia"
+  },
+  {
+    level: "hard",
+    question: "Where is the Langton's Classification utilized?",
+    choices: [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "USA"
+    ],
+    answer: "Australia"
+  },
+  {
+    level: "hard",
+    question: "Where is the Waimakariri and Waipara rivers most influencial?",
+    choices: [
+      "North Island NZ",
+      "South Island NZ",
+      "Western Australia",
+      "South Australia"
+    ],
+    answer: "South Island NZ"
+  },
+  {
+    level: "hard",
+    question: "Where is the Southern Alps and Lake Wanaka most influencial?",
+    choices: [
+      "North Island NZ",
+      "South Island NZ",
+      "Western Australia",
+      "South Australia"
+    ],
+    answer: "South Island NZ"
+  },
+  {
+    level: "hard",
+    question: "Where is Vale dos Vinhedos?",
+    choices: [
+      "Uruguay",
+      "Brazil",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Brazil"
+  },
+  {
+    level: "hard",
+    question: "What is the synonym for Tannat in Uruguay?",
+    choices: [
+      "Criolla",
+      "Harriague",
+      "Pinotage",
+      "Breton"
+    ],
+    answer: "Harriague"
+  },
+  {
+    level: "hard",
+    question: "Where is the Cephalonia wine region?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    answer: "Greece"
+  },
+  {
+    level: "hard",
+    question: "Where is the Sterea Ellada wine region?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    answer: "Greece"
+  },
+  {
+    level: "hard",
+    question: "Where is the Samos wine region?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    answer: "Greece"
+  },
+  {
+    level: "hard",
+    question: "Where would you find the Szarvas and M\u00e9zes M\u00e1ly vineyards?",
+    choices: [
+      "Balanton",
+      "Tokaj",
+      "Sopron",
+      "Kunsag"
+    ],
+    answer: "Tokaj"
+  },
+  {
+    level: "hard",
+    question: "What is a g\u00f6nc?",
+    choices: [
+      "a wine barrel in Argentina",
+      "a yeast strain in Hungary",
+      "a wine barrel in Tokaj",
+      "a glass bottle in Slovenia"
+    ],
+    answer: "a wine barrel in Tokaj"
+  },
+  {
+    level: "hard",
+    question: "Where is Kir\u00e1lyudvar from?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    answer: "Hungary"
+  },
+  {
+    level: "hard",
+    question: "Where is Santo Tom\u00e1s?",
+    choices: [
+      "Uruguay",
+      "Mexico",
+      "Argentina",
+      "Chile"
+    ],
+    answer: "Mexico"
+  },
+  {
+    level: "hard",
+    question: "Where is Polish Hill?",
+    choices: [
+      "Barossa Valley",
+      "Clare Valley",
+      "Yarra Valley",
+      "Tasmania"
+    ],
+    answer: "Clare Valley"
+  },
+  {
+    level: "hard",
+    question: "Which is not a lieu-dits of Cornas?",
+    choices: [
+      "Les Reynards",
+      "La C\u00f4te",
+      "Les Clos",
+      "Les Mazards"
+    ],
+    answer: "Les Clos"
+  },
+  {
+    level: "hard",
+    question: "Where is the Buzet wine region?",
+    choices: [
+      "Provence",
+      "Languedoc",
+      "Rousillon",
+      "SW France"
+    ],
+    answer: "SW France"
+  },
+  {
+    level: "hard",
+    question: "What style of wine is produced in Carmignano?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Dry Red"
+  },
+  {
+    level: "hard",
+    question: "What style of wine is produced in Vernaccia di San Gimignano?",
+    choices: [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    answer: "Dry White"
+  },
+  {
+    level: "hard",
+    question: "Where would you find Neyret-Gachet on the wine label?",
+    choices: [
+      "Ch\u00e2teau Chalon",
+      "Ch\u00e2teau-Grillet",
+      "Ch\u00e2teau Couhins",
+      "Ch\u00e2teau Charmes"
+    ],
+    answer: "Ch\u00e2teau-Grillet"
+  },
+  {
+    level: "hard",
+    question: "Where is the Grosser Ring?",
+    choices: [
+      "Rheingau",
+      "Mosel",
+      "Rhenhessen",
+      "Nahe"
+    ],
+    answer: "Mosel"
+  },
+  {
+    level: "hard",
+    question: "Where is the Zempl\u00e9n wine region?",
+    choices: [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    answer: "Hungary"
+  }
+]
 ]

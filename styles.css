@@ -19,20 +19,17 @@ html, body {
   align-items: center;
   padding: 1rem;
   line-height: 1.5;
-  overflow: hidden; /* will override on mobile */
+  overflow: hidden;
 }
 
-
-
-
-/* App Container - centered, padded, clean */
+/* Main Container */
 .app-container {
   width: 100%;
   max-width: 1000px;
   min-width: 300px;
   padding: 2rem;
   border-radius: 16px;
-  background: linear-gradient(to bottom right, #fffaf7, #f0e9e5); /* Soft cream background */
+  background: linear-gradient(to bottom right, #fffaf7, #f0e9e5);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   text-align: center;
   word-wrap: break-word;
@@ -45,24 +42,7 @@ html, body {
   }
 }
 
-.app-footer {
-  font-size: 0.85rem;
-  color: #777;
-  margin-top: auto;
-  padding-top: 1rem;
-}
-
-.app-footer a {
-  color: #5e1515;
-  text-decoration: none;
-}
-
-.app-footer a:hover {
-  text-decoration: underline;
-}
-
-
-/* Header & Tagline */
+/* Typography */
 h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -74,14 +54,12 @@ h5 {
   color: #5e5d5d;
   margin-bottom: 1.5rem;
   word-wrap: break-word;
-  overflow-wrap: break-word;
   white-space: normal;
-  max-width: 100%;
   display: block;
   text-align: center;
 }
 
-/* Level & Mode Select Section */
+/* Selection Panels */
 #level-selection {
   margin-bottom: 2rem;
 }
@@ -92,11 +70,10 @@ h5 {
   flex-direction: column;
   gap: 0.5rem;
   align-items: center;
-  text-align: center;
   font-size: 0.95rem;
 }
 
-/* Dropdown & Button Inputs */
+/* Inputs and Buttons */
 select,
 button {
   padding: 0.5rem 1.2rem;
@@ -108,7 +85,6 @@ button {
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
-/* Hover & Focus Styles */
 button:hover,
 select:hover {
   background-color: #5e1515;
@@ -116,13 +92,12 @@ select:hover {
   transform: scale(1.05);
 }
 
-/* Quiz Questions */
+/* Quiz Question Styles */
 #question {
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
-/* Answer Buttons Grid */
 .btn-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -164,7 +139,7 @@ select:hover {
   font-size: 1.1rem;
 }
 
-/* Final Score */
+/* Score */
 #score-container p {
   font-size: 1.2rem;
   margin-bottom: 1rem;
@@ -184,7 +159,101 @@ select:hover {
   border-left: 4px solid #360000;
 }
 
-/* Utility */
+/* Flashcard Mode */
+#flashcard-launch {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#flashcard-section {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#flashcard-level-select {
+  margin-bottom: 1rem;
+}
+
+.flashcard {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  perspective: 1000px;
+  transition: transform 0.6s ease;
+  cursor: pointer;
+  position: relative;
+  height: 200px; /* set fixed height */
+}
+
+.flashcard-front,
+.flashcard-back {
+  font-size: 1.2rem;
+  backface-visibility: hidden;
+  padding: 1rem;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flashcard-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f7f3f0;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  color: #333;
+  z-index: 2;
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.flashcard-back.hidden {
+  display: none;
+}
+
+.flashcard-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.flashcard-controls button {
+  padding: 0.5rem 1rem;
+}
+
+/* Footer */
+.app-footer {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.app-footer a {
+  color: #5e1515;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Utilities */
 .hidden {
   display: none;
 }
@@ -203,6 +272,7 @@ select:hover {
     margin-bottom: 2rem;
   }
 }
+
 .scroll-locked,
 .scroll-locked body {
   height: 100vh;
