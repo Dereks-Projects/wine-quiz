@@ -5735,5 +5735,658 @@ export const questions = [
     ],
     answer: "Hungary"
   }
+
+[
+  {
+    "level": "easy",
+    "question": "Which grape is most associated with Vouvray?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Chenin Blanc"
+  },
+  {
+    "level": "easy",
+    "question": "Which grape is most associated with Sancerre?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Sauvignon Blanc"
+  },
+  {
+    "level": "easy",
+    "question": "Which grape is most associated with Champagne?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Chardonnay"
+  },
+  {
+    "level": "easy",
+    "question": "Which grape is most associated with Bordeaux?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Sauvignon Blanc"
+  },
+  {
+    "level": "easy",
+    "question": "Which grape is most associated with Chablis?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Chardonnay"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Valencia wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Ribera del Duero wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Rioja wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the R\u00edas Baixas  wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Priorat wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Barolo wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Brunello di Montalcino wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Barbaresco wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Amarone della Valpolicella wine from?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Friuli wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Chianti Classico wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "level": "easy",
+    "question": "Where is thecountry that Prosecco comes from?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "level": "easy",
+    "question": "Which is the country you would most likely find Tempranillo in?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "easy",
+    "question": "Which is the country you would most likely find Sangiovese in?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "level": "easy",
+    "question": "Which is the country you would most likely find Nebbiolo in?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Seneca Lake wine region?",
+    "choices": [
+      "Australia",
+      "UK",
+      "New Zealand",
+      "USA"
+    ],
+    "answer": "USA"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Yamhill-Carlton District wine region?",
+    "choices": [
+      "Australia",
+      "UK",
+      "New Zealand",
+      "USA"
+    ],
+    "answer": "USA"
+  },
+  {
+    "level": "medium",
+    "question": "Which grape is most associated with Chinon?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Chenin Blanc"
+  },
+  {
+    "level": "medium",
+    "question": "Which grape is most associated with Pouilly-Fume?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Sauvignon Blanc"
+  },
+  {
+    "level": "medium",
+    "question": "Which grape is most associated with Cote Chalonais?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Chardonnay"
+  },
+  {
+    "level": "medium",
+    "question": "Which grape is most associated with Graves?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Sauvignon Blanc"
+  },
+  {
+    "level": "medium",
+    "question": "Which country has the most Cabernet Sauvignon under vine?",
+    "choices": [
+      "France",
+      "USA",
+      "Australia",
+      "Spain"
+    ],
+    "answer": "USA"
+  },
+  {
+    "level": "medium",
+    "question": "Which country has the least Cabernet Sauvignon under vine?",
+    "choices": [
+      "France",
+      "USA",
+      "Australia",
+      "Spain"
+    ],
+    "answer": "Australia"
+  },
+  {
+    "level": "medium",
+    "question": "Which grape is most associated with Sauternes?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Sauvignon Blanc"
+  },
+  {
+    "level": "medium",
+    "question": "Where is the Pened\u00e8s wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "medium",
+    "question": "Where is the Jumilla  wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "medium",
+    "question": "Where is the Montilla-Moriles wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "medium",
+    "question": "Where is the Pened\u00e8s wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "medium",
+    "question": "What style of wine is produced in Rioja?",
+    "choices": [
+      "Dry white",
+      "Dry red",
+      "Sparkling wine",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "level": "medium",
+    "question": "What style of wine is produced in R\u00edas Baixas?",
+    "choices": [
+      "Dry white",
+      "Dry red",
+      "Sparkling wine",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "level": "medium",
+    "question": "What style of wine is produced in Rueda?",
+    "choices": [
+      "Dry white",
+      "Dry red",
+      "Sparkling wine",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "level": "medium",
+    "question": "What style of wine is produced in Valdeorras?",
+    "choices": [
+      "Dry white",
+      "Dry red",
+      "Sparkling wine",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "level": "medium",
+    "question": "Where is the Algarve wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Portugal"
+  },
+  {
+    "level": "medium",
+    "question": "Where is the Vinho Verde wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Portugal"
+  },
+  {
+    "level": "medium",
+    "question": "Where is the D\u00e3o wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Portugal"
+  },
+  {
+    "level": "medium",
+    "question": "What style of wine is produced in Vinho Verde?",
+    "choices": [
+      "Dry white",
+      "Dry red",
+      "Sparkling wine",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "level": "medium",
+    "question": "What style of wine is produced in Douro DOP?",
+    "choices": [
+      "Dry white",
+      "Dry red",
+      "Sparkling wine",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "level": "medium",
+    "question": "Where is the Bekaa Valley wine region?",
+    "choices": [
+      "Lebanon",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Lebanon"
+  },
+  {
+    "level": "medium",
+    "question": "Where is the Galilee wine region?",
+    "choices": [
+      "Lebanon",
+      "Spain",
+      "Italy",
+      "Israel"
+    ],
+    "answer": "Israel"
+  },
+  {
+    "level": "medium",
+    "question": "Where is Commandaria wine produced?",
+    "choices": [
+      "Lebanon",
+      "Spain",
+      "Cyprus",
+      "Greece"
+    ],
+    "answer": "Cyprus"
+  },
+  {
+    "level": "medium",
+    "question": "Which grape is most associated with Uruguay?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Malbec",
+      "Chardonnay",
+      "Tannat"
+    ],
+    "answer": "Tannat"
+  },
+  {
+    "level": "medium",
+    "question": "Which grape is known as Gamay Blanc in the Jura?",
+    "choices": [
+      "Chardonnay",
+      "Sauvignon Blanc",
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "answer": "Chardonnay"
+  },
+  {
+    "level": "medium",
+    "question": "Which grape is known as Morillon in the Austria?",
+    "choices": [
+      "Chardonnay",
+      "Sauvignon Blanc",
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "answer": "Chardonnay"
+  },
+  {
+    "level": "medium",
+    "question": "Which grape is known as Steen in the South Africa?",
+    "choices": [
+      "Chardonnay",
+      "Sauvignon Blanc",
+      "Merlot",
+      "Chenin Blanc"
+    ],
+    "answer": "Chenin Blanc"
+  },
+  {
+    "level": "medium",
+    "question": "Where is the The Rocks of Milton-Freewater wine region?",
+    "choices": [
+      "Australia",
+      "UK",
+      "New Zealand",
+      "USA"
+    ],
+    "answer": "USA"
+  },
+  {
+    "level": "medium",
+    "question": "Where are the Santa Ynez Mountains?",
+    "choices": [
+      "California",
+      "NY",
+      "Oregon",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "level": "medium",
+    "question": "Where are the Mayacamas Mountains?",
+    "choices": [
+      "California",
+      "NY",
+      "Oregon",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "level": "medium",
+    "question": "Where are the North Coast Range Mountains?",
+    "choices": [
+      "California",
+      "NY",
+      "Oregon",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "level": "medium",
+    "question": "Where is the Shenandoah Valley?",
+    "choices": [
+      "California",
+      "NY",
+      "Virginia",
+      "Washington State"
+    ],
+    "answer": "Virginia"
+  },
+  {
+    "level": "hard",
+    "question": "Which grape is most associated with Savigny-les-Beaune?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Chardonnay"
+  },
+  {
+    "level": "hard",
+    "question": "What style of wine is produced in Ribeiro?",
+    "choices": [
+      "Dry white",
+      "Dry red",
+      "Sparkling wine",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "level": "hard",
+    "question": "Which best describes the wines of Moscatel do Douro?",
+    "choices": [
+      "Fortified wine",
+      "Dry wine",
+      "Sparkling wine",
+      "Late harvest wine"
+    ],
+    "answer": "Fortified wine"
+  },
+  {
+    "level": "hard",
+    "question": "What style of wine is produced in Bairrada?",
+    "choices": [
+      "Dry white",
+      "Dry red",
+      "Sparkling wine",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "level": "hard",
+    "question": "Where does Chateau Ksara produce wine?",
+    "choices": [
+      "Lebanon",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Lebanon"
+  }
+]
+
 ]
 ]
