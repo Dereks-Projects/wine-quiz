@@ -529,50 +529,6 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "Where is Ron Zacappa from?",
-    "choices": [
-      "Guatemala",
-      "Chile",
-      "USA",
-      "Haiti"
-    ],
-    "answer": "Guatemala"
-  },
-  {
-    "level": "medium",
-    "question": "Where is Barbancourt from?",
-    "choices": [
-      "Bahamas",
-      "Portugal",
-      "Haiti",
-      "Spain"
-    ],
-    "answer": "Haiti"
-  },
-  {
-    "level": "medium",
-    "question": "Where is Depaz from?",
-    "choices": [
-      "Sicily",
-      "Romania",
-      "Martinborough",
-      "Martinique"
-    ],
-    "answer": "Martinique"
-  },
-  {
-    "level": "medium",
-    "question": "Where is Mt. Gay from?",
-    "choices": [
-      "USA",
-      "Brazil",
-      "ChBahamasile",
-      "Barbados"
-    ],
-    "answer": "Barbados"
-  },
-  {
-    "level": "medium",
     "question": "What growth in the Bordeaux classification is Ch\u00e2teau Palmer?",
     "choices": [
       "2nd",
