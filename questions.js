@@ -67,17 +67,6 @@ export const questions = [
   },
   {
     "level": "easy",
-    "question": "What is the term for the smell of a wine?",
-    "choices": [
-      "Taste",
-      "Aroma",
-      "Feel",
-      "Location"
-    ],
-    "answer": "Aroma"
-  },
-  {
-    "level": "easy",
     "question": "What is the main grape in most red wines from Tuscany\u2019s Chianti region?",
     "choices": [
       "Sangiovese",
@@ -672,61 +661,6 @@ export const questions = [
   },
   {
     "level": "medium",
-    "question": "Where is Anisette from?",
-    "choices": [
-      "Portugal",
-      "Italy",
-      "Germany",
-      "France"
-    ],
-    "answer": "France"
-  },
-  {
-    "level": "medium",
-    "question": "Where is Galliano from?",
-    "choices": [
-      "France",
-      "Italy",
-      "Chile",
-      "Portugal"
-    ],
-    "answer": "Italy"
-  },
-  {
-    "level": "medium",
-    "question": "Where is Ouzo from?",
-    "choices": [
-      "Greece",
-      "France",
-      "Chile",
-      "Spain"
-    ],
-    "answer": "Greece"
-  },
-  {
-    "level": "medium",
-    "question": "Where is Passione Nera from?",
-    "choices": [
-      "France",
-      "Chile",
-      "Germany",
-      "Italy"
-    ],
-    "answer": "Italy"
-  },
-  {
-    "level": "medium",
-    "question": "What is Orujo?",
-    "choices": [
-      "Argentinian vodka",
-      "Morroccan pomace brandy",
-      "Spanish pomace brandy",
-      "German schnapps"
-    ],
-    "answer": "Spanish pomace brandy"
-  },
-  {
-    "level": "medium",
     "question": "What river runs through Rioja?",
     "choices": [
       "Ebro",
@@ -1064,7 +998,7 @@ export const questions = [
       "Fine bubbles in sparkling wine",
       "The first fermentation of Champagne"
     ],
-    "answer": "Second fermentation in Champagne"
+    "answer": "The Second fermentation in Champagne"
   },
   {
     "level": "hard",
@@ -1164,7 +1098,7 @@ export const questions = [
       "5 yrs.",
       "10 yrs."
     ],
-    "answer": "Estufagem: 2 yrs"
+    "answer": "2 yrs"
   },
   {
     "level": "hard",
@@ -1175,7 +1109,7 @@ export const questions = [
       "2 yrs.",
       "3 ys"
     ],
-    "answer": "Canteiro: 3 ys"
+    "answer": "3 ys"
   },
   {
     "level": "hard",
@@ -1241,7 +1175,7 @@ export const questions = [
       "Term for harvesting",
       "Name of a producer in Sicily"
     ],
-    "answer": "Synonym for muscat"
+    "answer": "Synonym for Muscat"
   },
   {
     "level": "hard",
@@ -1421,17 +1355,6 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Where is St. Germains elderflower liquer produced?",
-    "choices": [
-      "Eastern France",
-      "Northern Spain",
-      "Southern Germany",
-      "West Coast of Italy"
-    ],
-    "answer": "Eastern France"
-  },
-  {
-    "level": "hard",
     "question": "Is Setubal west, north or south of Lisbon?",
     "choices": [
       "Same Latitude",
@@ -1450,7 +1373,7 @@ export const questions = [
       "Finger Lakes",
       "Nova Scotia"
     ],
-    "answer": "British columbia"
+    "answer": "British Columbia"
   },
   {
     "level": "hard",
@@ -1467,12 +1390,12 @@ export const questions = [
     "level": "hard",
     "question": "Where is Clos des Ormes?",
     "choices": [
-      "Morey St Denis",
+      "Morey St. Denis",
       "Chambolle Musigny",
       "Haut Poitou",
       "Hautes Cotes de Nuits"
     ],
-    "answer": "Morey St Denis"
+    "answer": "Morey St. Denis"
   },
   {
     "level": "hard",
@@ -2381,10 +2304,10 @@ export const questions = [
     "level": "hard",
     "question": "Wahgunyah is a sub-region of which major area?",
     "choices": [
-      "France",
-      "Chile",
+      "Southern Alps",
+      "Wrattonbuly",
       "Rutherglen",
-      "Germany"
+      "Tasmania"
     ],
     "answer": "Rutherglen"
   },
@@ -2478,14 +2401,14 @@ export const questions = [
   },
   {
     "level": "hard",
-    "question": "Location of the Indre river.?",
+    "question": "Location of the Indre river?",
     "choices": [
-      "Torrainey",
+      "Torraine",
       "Central Vineyards",
       "Champagne",
       "Haut Cotes de Nuits"
     ],
-    "answer": "Torraine, Loire Valley"
+    "answer": "Torraine"
   },
   {
     "level": "hard",
@@ -6342,6 +6265,448 @@ export const questions = [
     ],
     "answer": "Lebanon"
   }
+  [
+  {
+    "level": "easy",
+    "question": "Where is San Luis Obispo County?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Long Island AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "New York"
+  },
+  {
+    "level": "easy",
+    "question": "Where is Alexander Valley AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Sierra Foothills AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Anderson Valley AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Russian River Valley AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Columbia Gorge AVA?",
+    "choices": [
+      "New Mexico",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Washington State"
+  },
+  {
+    "level": "easy",
+    "question": "Where is the Walla Walla Valley AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Washington State"
+  },
+  {
+    "level": "easy",
+    "question": "What grape is most associated with the Russian River Valley AVA?",
+    "choices": [
+      "Merlot",
+      "Pinot Noir",
+      "Grenache",
+      "Cabernet Sauvignon"
+    ],
+    "answer": "Pinot Noir"
+  },
+  {
+    "level": "easy",
+    "question": "What grape is most associated with the Calistoga AVA?",
+    "choices": [
+      "Zinfandel",
+      "Pinot Noir",
+      "Grenache",
+      "Cabernet Sauvignon"
+    ],
+    "answer": "Cabernet Sauvignon"
+  },
+  {
+    "level": "Medium",
+    "question": "If a wine from Australia has the grape variety on the label, what percentage of that grape must be in the bottle?",
+    "choices": [
+      "80%",
+      "85%",
+      "95%",
+      "100%"
+    ],
+    "answer": 0.85
+  },
+  {
+    "level": "Medium",
+    "question": "What is the most planted grape in Australia?",
+    "choices": [
+      "Merlot",
+      "Shiraz",
+      "Malbec",
+      "Grenache"
+    ],
+    "answer": "Shiraz"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is the Royal Slope AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Washington State"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is Lillooet GI?",
+    "choices": [
+      "Canada",
+      "Australia",
+      "Mexico",
+      "USA"
+    ],
+    "answer": "Canada"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is Thompson Valley GI?",
+    "choices": [
+      "Canada",
+      "Australia",
+      "Mexico",
+      "USA"
+    ],
+    "answer": "Canada"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is the Wahluke Slope AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Washington State"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is the Lewis-Clarke AVA?",
+    "choices": [
+      "Oregon",
+      "Idaho",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Idaho"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is the Puget Sound AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Washington State"
+  },
+  {
+    "level": "Medium",
+    "question": "Which grape is most associated with Eden Valley?",
+    "choices": [
+      "Merlot",
+      "Shiraz",
+      "Malbec",
+      "Grenache"
+    ],
+    "answer": "Shiraz"
+  },
+  {
+    "level": "Medium",
+    "question": "Which grape is most associated with Coonawara?",
+    "choices": [
+      "Merlot",
+      "Shiraz",
+      "Malbec",
+      "Cabernet Sauvignon"
+    ],
+    "answer": "Cabernet Sauvignon"
+  },
+  {
+    "level": "Medium",
+    "question": "Which grape is most associated with McLaren Vale?",
+    "choices": [
+      "Merlot",
+      "Shiraz",
+      "Malbec",
+      "Grenache"
+    ],
+    "answer": "Shiraz"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is Toro?",
+    "choices": [
+      "France",
+      "Spain",
+      "Portugal",
+      "Italy"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is Bierzo?",
+    "choices": [
+      "France",
+      "Spain",
+      "Portugal",
+      "Italy"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is Valdeorras?",
+    "choices": [
+      "France",
+      "Spain",
+      "Portugal",
+      "Italy"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is Arinzano from?",
+    "choices": [
+      "France",
+      "Spain",
+      "Portugal",
+      "Italy"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is the Algarve region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Portugal",
+      "Italy"
+    ],
+    "answer": "Portugal"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is Vinho Verde produced?",
+    "choices": [
+      "France",
+      "Spain",
+      "Portugal",
+      "Italy"
+    ],
+    "answer": "Portugal"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is the DOP of Colares?",
+    "choices": [
+      "France",
+      "Spain",
+      "Portugal",
+      "Italy"
+    ],
+    "answer": "Portugal"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is Bairrada?",
+    "choices": [
+      "France",
+      "Spain",
+      "Portugal",
+      "Italy"
+    ],
+    "answer": "Portugal"
+  },
+  {
+    "level": "Medium",
+    "question": "Where is Moscatel do Douro produced?",
+    "choices": [
+      "France",
+      "Spain",
+      "Portugal",
+      "Italy"
+    ],
+    "answer": "Portugal"
+  },
+  {
+    "level": "Hard",
+    "question": "Where is Nagambie Lakes?",
+    "choices": [
+      "Central Victoria",
+      "Gippsland",
+      "Port Phillip",
+      "Tasmania"
+    ],
+    "answer": "Central Victoria"
+  },
+  {
+    "level": "Hard",
+    "question": "Where is the Royal Slope AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Washington State"
+  },
+  {
+    "level": "Hard",
+    "question": "Where is the Covelo AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "level": "Hard",
+    "question": "Where is the Guenoc Valley AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "level": "Hard",
+    "question": "Where is the Fountaingrove District?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "level": "Hard",
+    "question": "Where does Kreydenweiss produce wine?",
+    "choices": [
+      "Alsace",
+      "Jura",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Alsace"
+  },
+  {
+    "level": "Hard",
+    "question": "Where does Bott-Geyl produce wine?",
+    "choices": [
+      "Alsace",
+      "Jura",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Alsace"
+  },
+  {
+    "level": "Hard",
+    "question": "Where does Domaine des Baumard produce wine?",
+    "choices": [
+      "Alsace",
+      "Jura",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Loire Valley"
+  },
+  {
+    "level": "Hard",
+    "question": "Where does Alphonse Mellot produce wine?",
+    "choices": [
+      "Alsace",
+      "Jura",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Loire Valley"
+  },
+  {
+    "level": "Hard",
+    "question": "Where does Domaine des Baumard produce wine?",
+    "choices": [
+      "Alsace",
+      "Jura",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Loire Valley"
+  }
+]
 ]
 
 ]
